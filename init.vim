@@ -51,12 +51,21 @@ call plug#begin('~/.config/nvim/plugs')
 
   " Git Integration
   Plug 'tpope/vim-fugitive'
+  Plug 'airblade/vim-gitgutter'
 
   " Other TPope plugins
   Plug 'tpope/vim-commentary'
   Plug 'tpope/vim-surround'
   Plug 'tpope/vim-repeat'
   
+  " Built-in LSP client
+  Plug 'neovim/nvim-lspconfig'
+  Plug 'nvim-lua/completion-nvim'
+
+  " Completion
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  " Python
+  Plug 'deoplete-plugins/deoplete-jedi'
 
   call plug#end()
 
@@ -82,7 +91,7 @@ set undodir=~/.config/nvim/undo
 
 set expandtab tabstop=2 softtabstop=2 shiftwidth=2
 set smarttab
-"let backspace='indent,eol,start'
+set backspace=indent,eol,start
 set backspace=2
 set autoindent
 
@@ -109,6 +118,21 @@ augroup vimSaveCursorPosition
 " Keybindings
 let mapleader=" "
 
+" Fix Backspace
+func Backspace()
+  if col('.') == 1
+    if line('.')  != 1
+      return  "\<ESC>Dk$p\<S-J>i"
+    else
+      return ""
+    endif
+  else
+    return "\<Left>\<Del>"
+  endif
+endfunc
+
+inoremap <BS> <c-r>=Backspace()<CR>
+
 " escape
 nnoremap <leader>x <ESC>
 
@@ -120,6 +144,9 @@ nnoremap <leader>ev :vsp ~/.config/nvim/init.vim<CR>
 nnoremap <leader>ez :vsp ~/.zshrc<CR>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<CR>
 
+" Window/Buffer Management
+
+
 " Sneak
 map <leader>s <Plug>Sneak_s
 map <leader>S <Plug>Sneak_S
@@ -127,6 +154,12 @@ map <leader>f <Plug>Sneak_f
 map <leader>F <Plug>Sneak_F
 map <leader>t <Plug>Sneak_t
 map <leader>T <Plug>Sneak_T
+
+" Deoplete
+" Use deoplete.
+let g:deoplete#enable_at_startup = 1
+" Jedi
+let g:python3_host_prog = '/usr/bin/python3'
 
 " Quick Scope
 " Trigger a highlight in the appropriate direction when pressing these keys:
@@ -267,10 +300,17 @@ augroup END
 " Fugitive Statusline Integration
 set statusline+=%{FugitiveStatusline()}
 
+" GitGutter
+function! GitStatus()
+  let [a,m,r] = GitGutterGetHunkSummary()
+  return printf('+%d ~%d -%d', a, m, r)
+endfunction
+set statusline+=%{GitStatus()}
+
 " NERDTree Settings
 " Start NERDTree. If a file is specified, move the cursor to its window.
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
 
 " Exit Vim if NERDTree is the only window left.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
@@ -285,3 +325,5 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 " Sneak Settings
 " label-mode
 let g:sneak#label = 1
+
+" LSP Settings
