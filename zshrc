@@ -129,9 +129,15 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias https="http --default-scheme=https"
+alias g="git"
+alias ls="lsd"
+alias la="lsd -a"
+alias ll="lsd -l"
+alias lla="lsd -la"
+alias ltree="ls --tree"
 
 # Functions
-function nv() {
+function n() {
   nvim $1
 }
 
@@ -240,24 +246,24 @@ fi
 #
 # Vi-Mode plugin
 # Key bindings
-# 
+#
 # Use ESC or CTRL-[ to enter Normal mode.
-# 
+
 # NOTE: some of these key bindings are set by zsh by default when using a vi-mode keymap.
 # History
-# 
+#
 #     ctrl-p : Previous command in history
 #     ctrl-n : Next command in history
 #     / : Search backward in history
 #     n : Repeat the last /
-# 
+#
 # Vim edition
-# 
+#
 #     vv : Edit current command line in Vim
-# 
+#
 # NOTE: this used to be bound to v. That is now the default (visual-mode)
 # Movement
-# 
+#
 #     $ : To the end of the line
 #     ^ : To the first non-blank character of the line
 #     0 : To the first character of the line
@@ -273,18 +279,18 @@ fi
 #     F{char} : To [count]'th occurrence of {char} to the left
 #     ; : Repeat latest f, t, F or T [count] times
 #     , : Repeat latest f, t, F or T in opposite direction
-# 
+#
 # Insertion
-# 
+#
 #     i : Insert text before the cursor
 #     I : Insert text before the first character in the line
 #     a : Append text after the cursor
 #     A : Append text at the end of the line
 #     o : Insert new command line below the current one
 #     O : Insert new command line above the current one
-# 
+#
 # Delete and Insert
-# 
+#
 #     ctrl-h : While in Insert mode: delete character before the cursor
 #     ctrl-w : While in Insert mode: delete word before the cursor
 #     d{motion} : Delete text that {motion} moves over
@@ -303,3 +309,4 @@ fi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 # Use ripgrep fon searching
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
