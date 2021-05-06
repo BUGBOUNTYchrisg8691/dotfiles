@@ -3,7 +3,8 @@
   email = chrisg8691@gmail.com
 [alias]
 	a = add --all
-	ai = add -i
+  ai = add -i
+  ap = add -p
 	#############
 	ap = apply
 	as = apply --stat
@@ -78,7 +79,7 @@
 	pr = prune -v
 	#############
   ps = push
-  psb = "!git push origin $(git rev-parse --abbrev-ref HEAD)"
+  psb = "!git push -u origin $(git rev-parse --abbrev-ref HEAD)"
 	psf = push -f
 	psu = push -u
 	pst = push --tags
@@ -99,7 +100,7 @@
 	psdc = !git push origin :$(git bc)
 	#############
 	pl = pull
-  plb = "!git pull origin $(git rev-parse --abbrev-ref HEAD)"
+  plb = "!git pull -u origin $(git rev-parse --abbrev-ref HEAD)"
 	pb = pull --rebase
 	#############
 	plo = pull origin

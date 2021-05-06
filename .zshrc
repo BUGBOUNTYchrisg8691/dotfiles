@@ -32,7 +32,7 @@ prompt lambda-pure
 # DISABLE_UPDATE_PROMPT="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-export UPDATE_ZSH_DAYS=7
+# export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
@@ -129,19 +129,15 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias https="http --default-scheme=https"
-
-# lsd aliases
-alias ls='lsd'
-alias l='ls -l'
-alias la='ls -a'
-alias lla='ls -la'
-alias lt='ls --tree'
-
-# git aliases
-alias gitroot='cd $(git rev-parse --show-toplevel)'
+alias g="git"
+alias ls="lsd"
+alias la="lsd -a"
+alias ll="lsd -l"
+alias lla="lsd -la"
+alias ltree="ls --tree"
 
 # Functions
-function nv() {
+function n() {
   nvim $1
 }
 
@@ -252,7 +248,7 @@ fi
 # Key bindings
 #
 # Use ESC or CTRL-[ to enter Normal mode.
-#
+
 # NOTE: some of these key bindings are set by zsh by default when using a vi-mode keymap.
 # History
 #
@@ -313,27 +309,4 @@ fi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 # Use ripgrep fon searching
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
-
-# For GitLab terminal completion
-# source <(gitlab completion)
-
-# For WebStorm (JetBrains)
-export PATH=$HOME/tools/WebStorm/bin:$PATH
-
-export EDITOR=nvim
-
-neofetch
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/chrisg/.sdkman"
-[[ -s "/home/chrisg/.sdkman/bin/sdkman-init.sh" ]] && source "/home/chrisg/.sdkman/bin/sdkman-init.sh"
-
-# pipenv
-export PIPENV_VENV_IN_PROJECT=1
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-
-# dex2jar
-export PATH=$HOME/tools/dex2jar:$PATH
-
-# ghidra
-export PATH=$HOME/tools/ghidra:$PATH
