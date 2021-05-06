@@ -337,6 +337,9 @@ let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#coc#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_theme='gruvbox_material'
+" Airline binds
+nmap <leader>tn <Plug>AirlineSelectNextTab
+nmap <leader>tp <Plug>AirlineSelectPrevTab
 
 " CtrlP Settings
 let g:ctrlp_map = '<c-p>'
@@ -486,7 +489,7 @@ set nobackup
 set nowritebackup
 
 " Give more space for displaying messages.
-set cmdheight=2
+set cmdheight=1
 
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 " delays and poor user experience.
@@ -673,6 +676,7 @@ let g:ale_linters = {
 let g:ale_fixers = {
   \   '*': ['remove_trailing_lines', 'trim_whitespace'],
   \   'javascript': ['eslint', 'prettier'],
+  \   'typescript': ['tslint', 'prettier'],
   \   'rust': ['rustfmt'],
   \   'python': ['black', 'isort'],
   \   'cpp': ['clang-format'],
