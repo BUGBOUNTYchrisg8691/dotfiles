@@ -7,7 +7,7 @@
 
 [color "branch"]
     current = yellow reverse
-    local = yello
+    local = yellow
     remote = green
 
 [color "diff"]
@@ -61,7 +61,9 @@
 	cp = cherry-pick
 	cpa = cherry-pick --abort
 	cpc = cherry-pick --continue
-	#############
+  #############
+  cz = !npx cz
+  #############
 	d = diff
 	dp = diff --patience
 	dc = diff --cached
@@ -223,3 +225,5 @@
 	theirs = "!f() { git checkout --theirs $@ && git add $@; }; f"
 	subrepo = !sh -c 'git filter-branch --prune-empty --subdirectory-filter $1 master' -
 	human = name-rev --name-only --refs=refs/heads/*
+[init]
+	defaultBranch = main

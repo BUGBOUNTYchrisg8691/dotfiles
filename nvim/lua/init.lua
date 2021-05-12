@@ -1,0 +1,8 @@
+require "plugins"
+require "settings"
+require "utils"
+require "config.compe"
+require "config.nerdtree-git-plugin"
+require "config.nerdtree-visual-sel"
+require "config.nerdtree"
+require "binds"
