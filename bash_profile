@@ -6,6 +6,8 @@
 
 ## Emacs
 export PATH="$HOME/.emacs.d/bin:$PATH"
+## Doom Emacs
+export DOOMDIR="$HOME/Tools/Config/dotfiles/doom"
 
 ## Perl/cpan
 PATH="/home/chrisg/perl5/bin${PATH:+:${PATH}}"; export PATH;

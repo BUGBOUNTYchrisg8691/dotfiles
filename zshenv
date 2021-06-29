@@ -3,6 +3,8 @@ export PATH="$HOME/.local/bin:$PATH"
 
 ## Emacs
 export PATH="$HOME/.emacs.d/bin:$PATH"
+## Doom Emacs
+export DOOMDIR="$HOME/Tools/Config/dotfiles/doom"
 
 ## Ruby/RubyGem
 export PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"
