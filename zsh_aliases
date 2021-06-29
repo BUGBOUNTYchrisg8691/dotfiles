@@ -1,0 +1,43 @@
+## zsh aliases
+## by Chris Girvin (github.com/bugbountychrisg8691)
+
+## most used
+alias c="clear && neofetch"
+alias vim="nvim $argv"
+
+## file/directory navigation and manipulation
+alias ls="exa --icons $argv"
+alias la="ls -a $argv"
+alias ll="ls -l $argv"
+alias llh="ls -lh $argv"
+alias lla="ls -la $argv"
+alias llha="ls -lha $argv"
+alias lr="ls -R $argv"
+alias ltree="ls -T $argv"
+alias lgit="ls -lha --git $argv"
+alias less="cless $argv"
+alias cat="ccat $argv"
+
+## configuration
+alias src="clear && source $HOME/.zshrc"
+
+## functions
+
+## emacs
+# for vterm - helps to enable the shell to send information to vterm via properly escaped sequences
+function vterm_printf {
+    if [ -n "$TMUX" ] && ([ "${TERM%%-*}" = "tmux" ] || [ "${TERM%%-*}" = "screen" ] ); then
+        # Tell tmux to pass the escape sequences through
+        printf "\ePtmux;\e\e]%s\007\e\\" "$1"
+    elif [ "${TERM%%-*}" = "screen" ]; then
+        # GNU screen (screen, screen-256color, screen-256color-bce)
+        printf "\eP\e]%s\007\e\\" "$1"
+    else
+        printf "\e]%s\e\\" "$1"
+    fi
+}
+
+## for vterm - clear alias for `vterm-clear-scrollback`
+if [[ "$INSIDE_EMACS" = 'vterm' ]]; then
+    alias c='vterm_printf "51;Evterm-clear-scrollback";tput clear'
+fi
