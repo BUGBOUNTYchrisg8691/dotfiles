@@ -1,19 +1,17 @@
-## bash aliases 
-## by Chris Girvin (github.com/bugbountychrisg8691)
-
-## aliases
 alias c="clear"
 
-## functions
-## vterm - helps to enable the shell to send information to vterm via properly escaped sequences
-#vterm_printf(){
-#    if [ -n "$TMUX" ] && ([ "${TERM%%-*}" = "tmux" ] || [ "${TERM%%-*}" = "screen" ] ); then
-#        # Tell tmux to pass the escape sequences through
-#        printf "\ePtmux;\e\e]%s\007\e\\" "$1"
-#    elif [ "${TERM%%-*}" = "screen" ]; then
-#        # GNU screen (screen, screen-256color, screen-256color-bce)
-#        printf "\eP\e]%s\007\e\\" "$1"
-#    else
-#        printf "\e]%s\e\\" "$1"
-#    fi
-#}
+alias h="history $argv"
+
+alias g="git $argv"
+
+function vterm_printf {
+    if [ -n "$TMUX" ] && ([ "${TERM%%-*}" = "tmux" ] || [ "${TERM%%-*}" = "screen" ] ); then
+        # Tell tmux to pass the escape sequences through
+        printf "\ePtmux;\e\e]%s\007\e\\" "$1"
+    elif [ "${TERM%%-*}" = "screen" ]; then
+        # GNU screen (screen, screen-256color, screen-256color-bce)
+        printf "\eP\e]%s\007\e\\" "$1"
+    else
+        printf "\e]%s\e\\" "$1"
+    fi
+}

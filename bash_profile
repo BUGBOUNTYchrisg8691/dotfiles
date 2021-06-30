@@ -24,6 +24,9 @@ export NVM_DIR="$HOME/.nvm"
 ## editor
 export EDITOR="nvim"
 
+## ghcup
+[ -f "/home/chrisg/.ghcup/env" ] && source "/home/chrisg/.ghcup/env" # ghcup-env
+
 ## rust/cargo
 source "$HOME/.cargo/env"
 

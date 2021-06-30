@@ -1,6 +1,10 @@
 ## locally install package path for user
 export PATH="$HOME/.local/bin:$PATH"
 
+## go
+export GOBIN="$HOME/go/bin"
+export PATH="$GOBIN:$PATH"
+
 ## Emacs
 export PATH="$HOME/.emacs.d/bin:$PATH"
 ## Doom Emacs
@@ -27,6 +31,9 @@ export NVM_DIR="$HOME/.nvm"
 
 ## editor
 export EDITOR="nvim"
+
+## ghcup
+[ -f "/home/chrisg/.ghcup/env" ] && source "/home/chrisg/.ghcup/env" # ghcup-env
 
 ## rust/cargo
 source "$HOME/.cargo/env"

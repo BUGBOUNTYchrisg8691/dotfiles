@@ -1,5 +1,5 @@
 #+title Bash Aliases
-#+PROPERTY: header-args:shell :tangle ./.bash_aliases
+#+PROPERTY: header-args:shell :tangle ./bash_aliases
 
 * bash_aliases
 ** aliases
