@@ -1,5 +1,6 @@
-#+TITLE: Doom Emacs Literate Config
-#+AUTHOR: Chris Girvin
+#+title: Doom Emacs Literate Config
+#+author: Chris Girvin
+#+date: 2021-06-30
 #+PROPERTY: header-args:emacs-lisp :tangle ./config.el
 
 * Doom Emacs OEM configuration
@@ -29,6 +30,8 @@
 ;; font string. You generally only need these two:
 ;; (setq doom-font (font-spec :family "monospace" :size 12 :weight 'semi-light)
 ;;       doom-variable-pitch-font (font-spec :family "sans" :size 13))
+(setq doom-font (font-spec :family "Iosevka Nerd Font" :size 14 :style "Heavy Oblique")
+      doom-big-font (font-spec :family "Iosevka Nerd Font" :size 24 :style "Heavy Oblique"))
 #+end_src
 ** theme
 #+begin_src emacs-lisp
