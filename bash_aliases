@@ -15,3 +15,10 @@ function vterm_printf {
         printf "\e]%s\e\\" "$1"
     fi
 }
+
+if [[ "$INSIDE_EMACS" = 'vterm' ]]; then
+    function clear(){
+        vterm_printf "51;Evterm-clear-scrollback";
+        tput clear;
+    }
+fi

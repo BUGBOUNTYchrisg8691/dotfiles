@@ -1,4 +1,7 @@
-#+title Bash Aliases
+#+title: Bash Aliases
+#+author: Chris Girvin
+#+email: chrisg8691@gmail.com
+#+date: 2021-06-30
 #+PROPERTY: header-args:shell :tangle ./bash_aliases
 
 * bash_aliases
@@ -30,3 +33,13 @@ function vterm_printf {
     fi
 }
 #+END_SRC
+** misc
+*** vterm - /used by `vterm-clear-scrollback` to clear both screen and scrollback/
+#+begin_src shell
+if [[ "$INSIDE_EMACS" = 'vterm' ]]; then
+    function clear(){
+        vterm_printf "51;Evterm-clear-scrollback";
+        tput clear;
+    }
+fi
+#+end_src

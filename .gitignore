@@ -78,3 +78,6 @@ node_modules
 
 # backups
 *.bak*
+
+# api/gpg/ssh keys
+*.gpg

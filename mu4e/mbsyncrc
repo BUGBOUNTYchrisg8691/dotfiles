@@ -1,0 +1,363 @@
+#+title: mbsyncrc
+#+author: Chris Girvin
+#+email: chrisg8691@gmail.com
+#+date: 2021-07-01
+#
+# mbsyncrc based on
+# https://fanpengkong.com/post/emacs-email/emacs-email/#headline-1
+
+#####################
+# Gmail - chrisg8691
+#####################
+# ACCOUNT INFORMATION
+IMAPAccount chrisg8691-gmail
+# Address to connect to
+Host imap.gmail.com
+User chrisg8691@gmail.com
+# Create a plain text file that contains your password. Name it mbsyncpass-acc1. 
+# Then, gpg encrypt it by running: gpg -c mbsyncpass-acc1
+# Then delete the plain text file, leaving only mbsyncpass-acc1.gpg.
+PassCmd "gpg -q --for-your-eyes-only --no-tty -d ~/.authinfo.gpg | awk '/machine imap.gmail.com login chrisg8691@gmail.com/ {print $NF}'"
+AuthMechs LOGIN
+SSLType IMAPS
+# SSLVersions SSLv3
+# The following line should work. If get certificate errors, uncomment the two following lines and read the "Troubleshooting" section.
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+# THEN WE SPECIFY THE LOCAL AND REMOTE STORAGE
+# - THE REMOTE STORAGE IS WHERE WE GET THE MAIL FROM (E.G., THE
+#   SPECIFICATION OF AN IMAP ACCOUNT)
+# - THE LOCAL STORAGE IS WHERE WE STORE THE EMAIL ON OUR COMPUTER
+
+# REMOTE STORAGE (USE THE IMAP ACCOUNT SPECIFIED ABOVE)
+IMAPStore chrisg8691-gmail-remote
+Account chrisg8691-gmail
+
+# LOCAL STORAGE (CREATE DIRECTORIES with mkdir -p ~/Maildir/derek-distrotube)
+MaildirStore chrisg8691-gmail-local
+Path ~/Mail/chrisg8691-gmail/
+Inbox ~/Mail/chrisg8691-gmail/Inbox
+# REQUIRED ONLY IF YOU WANT TO DOWNLOAD ALL SUBFOLDERS; SYNCING SLOWS DOWN
+# SubFolders Verbatim
+
+# CONNECTIONS SPECIFY LINKS BETWEEN REMOTE AND LOCAL FOLDERS
+#
+# CONNECTIONS ARE SPECIFIED USING PATTERNS, WHICH MATCH REMOTE MAIL
+# FOLDERS. SOME COMMONLY USED PATTERS INCLUDE:
+#
+# 1 "*" TO MATCH EVERYTHING
+# 2 "!DIR" TO EXCLUDE "DIR"
+# 3 "DIR" TO MATCH DIR
+
+## Inbox Channel
+Channel chrisg8691-gmail-inbox
+Far :chrisg8691-gmail-remote:
+Near :chrisg8691-gmail-local:
+#Patterns * ![Gmail]* "[Gmail]/Sent Mail" "[Gmail]/Starred" "[Gmail]/All Mail" "[Gmail]/Trash"
+Patterns "INBOX"
+Create Both
+Expunge Both
+SyncState *
+
+## All Channel
+Channel chrisg8691-gmail-all
+Far :chrisg8691-gmail-remote:"[Gmail]/All Mail"
+Near :chrisg8691-gmail-local:"[Gmail].All Mail"
+Create Both
+Expunge Both
+SyncState *
+
+## Drafts Channel
+Channel chrisg8691-gmail-drafts
+Far :chrisg8691-gmail-remote:"[Gmail]/Drafts"
+Near :chrisg8691-gmail-local:"[Gmail].Drafts"
+Create Both
+Expunge Both
+SyncState *
+
+## Sent Channel
+Channel chrisg8691-gmail-sent
+Far :chrisg8691-gmail-remote:"[Gmail]/Sent Mail"
+Near :chrisg8691-gmail-local:"[Gmail].Sent Mail"
+Create Both
+Expunge Both
+SyncState *
+
+## Starred Channel
+Channel chrisg8691-gmail-starred
+Far :chrisg8691-gmail-remote:"[Gmail]/Starred"
+Near :chrisg8691-gmail-local:"[Gmail].Starred"
+Create Both
+Expunge Both
+SyncState *
+
+## Trash Channel
+Channel chrisg8691-gmail-trash
+Far :chrisg8691-gmail-remote:"[Gmail]/Trash"
+Near :chrisg8691-gmail-local:"[Gmail].Trash"
+Create Both
+Expunge Both
+SyncState *
+
+# GROUPS PUT TOGETHER CHANNELS, SO THAT WE CAN INVOKE
+# MBSYNC ON A GROUP TO SYNC ALL CHANNELS
+# 
+# `chrisg8691-gmail` is `gmail` in the scenario below
+# FOR INSTANCE: "mbsync gmail" GETS MAIL FROM
+# "gmail-inbox", "gmail-sent", "gmail-trash" and
+# "gmail-drafts"
+
+## chrisg8691-gmail Group
+Group chrisg8691-gmail
+Channel chrisg8691-gmail-inbox
+Channel chrisg8691-gmail-all
+Channel chrisg8691-gmail-drafts
+Channel chrisg8691-gmail-sent
+Channel chrisg8691-gmail-starred
+Channel chrisg8691-gmail-trash
+
+# ================================================================================
+
+###############################
+# Gmail - bugbounty.chrisg8691
+###############################
+# ACCOUNT INFORMATION
+IMAPAccount bugbounty.chrisg8691-gmail
+# Address to connect to
+Host imap.gmail.com
+User bugbounty.chrisg8691@gmail.com
+# Create a plain text file that contains your password. Name it mbsyncpass-acc1.
+# Then, gpg encrypt it by running: gpg -c mbsyncpass-acc1
+# Then delete the plain text file, leaving only mbsyncpass-acc1.gpg.
+PassCmd "gpg -q --for-your-eyes-only --no-tty -d ~/.authinfo.gpg | awk '/machine imap.gmail.com login bugbounty.chrisg8691@gmail.com/ {print $NF}'"
+AuthMechs LOGIN
+SSLType IMAPS
+# SSLVersions SSLv3
+# The following line should work. If get certificate errors, uncomment the two following lines and read the "Troubleshooting" section.
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+# THEN WE SPECIFY THE LOCAL AND REMOTE STORAGE
+# - THE REMOTE STORAGE IS WHERE WE GET THE MAIL FROM (E.G., THE
+#   SPECIFICATION OF AN IMAP ACCOUNT)
+# - THE LOCAL STORAGE IS WHERE WE STORE THE EMAIL ON OUR COMPUTER
+
+# REMOTE STORAGE (USE THE IMAP ACCOUNT SPECIFIED ABOVE)
+IMAPStore bugbounty.chrisg8691-gmail-remote
+Account bugbounty.chrisg8691-gmail
+
+# LOCAL STORAGE (CREATE DIRECTORIES with mkdir -p ~/Maildir/derek-distrotube)
+MaildirStore bugbounty.chrisg8691-gmail-local
+Path ~/Mail/bugbounty.chrisg8691-gmail/
+Inbox ~/Mail/bugbounty.chrisg8691-gmail/Inbox
+# REQUIRED ONLY IF YOU WANT TO DOWNLOAD ALL SUBFOLDERS; SYNCING SLOWS DOWN
+# SubFolders Verbatim
+
+# CONNECTIONS SPECIFY LINKS BETWEEN REMOTE AND LOCAL FOLDERS
+#
+# CONNECTIONS ARE SPECIFIED USING PATTERNS, WHICH MATCH REMOTE MAIL
+# FOLDERS. SOME COMMONLY USED PATTERS INCLUDE:
+#
+# 1 "*" TO MATCH EVERYTHING
+# 2 "!DIR" TO EXCLUDE "DIR"
+# 3 "DIR" TO MATCH DIR
+
+## Inbox Channel
+Channel bugbounty.chrisg8691-gmail-inbox
+Far :bugbounty.chrisg8691-gmail-remote:
+Near :bugbounty.chrisg8691-gmail-local:
+#Patterns * ![Gmail]* "[Gmail]/Sent Mail" "[Gmail]/Starred" "[Gmail]/All Mail" "[Gmail]/Trash"
+Patterns "INBOX"
+Create Both
+Expunge Both
+SyncState *
+
+## All Channel
+Channel bugbounty.chrisg8691-gmail-all
+Far :bugbounty.chrisg8691-gmail-remote:"[Gmail]/All Mail"
+Near :bugbounty.chrisg8691-gmail-local:"[Gmail].All Mail"
+Create Both
+Expunge Both
+SyncState *
+
+## Drafts Channel
+Channel bugbounty.chrisg8691-gmail-drafts
+Far :bugbounty.chrisg8691-gmail-remote:"[Gmail]/Drafts"
+Near :bugbounty.chrisg8691-gmail-local:"[Gmail].Drafts"
+Create Both
+Expunge Both
+SyncState *
+
+## Sent Channel
+Channel bugbounty.chrisg8691-gmail-sent
+Far :bugbounty.chrisg8691-gmail-remote:"[Gmail]/Sent Mail"
+Near :bugbounty.chrisg8691-gmail-local:"[Gmail].Sent Mail"
+Create Both
+Expunge Both
+SyncState *
+
+## Starred Channel
+Channel bugbounty.chrisg8691-gmail-starred
+Far :bugbounty.chrisg8691-gmail-remote:"[Gmail]/Starred"
+Near :bugbounty.chrisg8691-gmail-local:"[Gmail].Starred"
+Create Both
+Expunge Both
+SyncState *
+
+## Trash Channel
+Channel bugbounty.chrisg8691-gmail-trash
+Far :bugbounty.chrisg8691-gmail-remote:"[Gmail]/Trash"
+Near :bugbounty.chrisg8691-gmail-local:"[Gmail].Trash"
+Create Both
+Expunge Both
+SyncState *
+
+# GROUPS PUT TOGETHER CHANNELS, SO THAT WE CAN INVOKE
+# MBSYNC ON A GROUP TO SYNC ALL CHANNELS
+#
+# `chrisg8691-gmail` is `gmail` in the scenario below
+# FOR INSTANCE: "mbsync gmail" GETS MAIL FROM
+# "gmail-inbox", "gmail-sent", "gmail-trash" and
+# "gmail-drafts"
+
+## chrisg8691-gmail Group
+Group bugbounty.chrisg8691-gmail
+Channel bugbounty.chrisg8691-gmail-inbox
+Channel bugbounty.chrisg8691-gmail-all
+Channel bugbounty.chrisg8691-gmail-drafts
+Channel bugbounty.chrisg8691-gmail-sent
+Channel bugbounty.chrisg8691-gmail-starred
+Channel bugbounty.chrisg8691-gmail-trash
+
+# ================================================================================
+ 
+#####################
+# Outlook - chrisg8691
+#####################
+# ACCOUNT INFORMATION
+IMAPAccount chrisg8691-outlook
+# Address to connect to
+Host outlook.office365.com
+User chrisg8691@outlook.com
+# Create a plain text file that contains your password. Name it mbsyncpass-acc1.
+# Then, gpg encrypt it by running: gpg -c mbsyncpass-acc1
+# Then delete the plain text file, leaving only mbsyncpass-acc1.gpg.
+PassCmd "gpg -q --for-your-eyes-only --no-tty -d ~/.authinfo.gpg | awk '/machine outlook.office365.com login chrisg8691@outlook.com port 993/ {print $NF}'"
+AuthMechs LOGIN
+SSLType IMAPS
+# SSLVersions SSLv3
+# The following line should work. If get certificate errors, uncomment the two following lines and read the "Troubleshooting" section.
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+# THEN WE SPECIFY THE LOCAL AND REMOTE STORAGE
+# - THE REMOTE STORAGE IS WHERE WE GET THE MAIL FROM (E.G., THE
+#   SPECIFICATION OF AN IMAP ACCOUNT)
+# - THE LOCAL STORAGE IS WHERE WE STORE THE EMAIL ON OUR COMPUTER
+
+# REMOTE STORAGE (USE THE IMAP ACCOUNT SPECIFIED ABOVE)
+IMAPStore chrisg8691-outlook-remote
+Account chrisg8691-outlook
+
+# LOCAL STORAGE (CREATE DIRECTORIES with mkdir -p ~/Maildir/derek-distrotube)
+MaildirStore chrisg8691-outlook-local
+Path ~/Mail/chrisg8691-outlook/
+Inbox ~/Mail/chrisg8691-outlook/Inbox
+# REQUIRED ONLY IF YOU WANT TO DOWNLOAD ALL SUBFOLDERS; SYNCING SLOWS DOWN
+# SubFolders Verbatim
+
+# CONNECTIONS SPECIFY LINKS BETWEEN REMOTE AND LOCAL FOLDERS
+#
+# CONNECTIONS ARE SPECIFIED USING PATTERNS, WHICH MATCH REMOTE MAIL
+# FOLDERS. SOME COMMONLY USED PATTERS INCLUDE:
+#
+# 1 "*" TO MATCH EVERYTHING
+# 2 "!DIR" TO EXCLUDE "DIR"
+# 3 "DIR" TO MATCH DIR
+
+## All Channel
+Channel chrisg8691-outlook-all
+Far :chrisg8691-outlook-remote:
+Near :chrisg8691-outlook-local:
+Patterns *
+Create Both
+Expunge Both
+SyncState *
+
+# GROUPS PUT TOGETHER CHANNELS, SO THAT WE CAN INVOKE
+# MBSYNC ON A GROUP TO SYNC ALL CHANNELS
+#
+# `chrisg8691-outlook` is `gmail` in the scenario below
+# FOR INSTANCE: "mbsync gmail" GETS MAIL FROM
+# "gmail-inbox", "gmail-sent", "gmail-trash" and
+# "gmail-drafts"
+
+## chrisg8691-outlook Group
+Group chrisg8691-outlook
+Channel chrisg8691-outlook-all
+
+# ================================================================================
+
+###############################
+# Outlook - bugbounty.chrisg8691
+###############################
+# ACCOUNT INFORMATION
+IMAPAccount bugbounty.chrisg8691-outlook
+# Address to connect to
+Host outlook.office365.com
+User bugbounty.chrisg8691@outlook.com
+# Create a plain text file that contains your password. Name it mbsyncpass-acc1.
+# Then, gpg encrypt it by running: gpg -c mbsyncpass-acc1
+# Then delete the plain text file, leaving only mbsyncpass-acc1.gpg.
+PassCmd "gpg -q --for-your-eyes-only --no-tty -d ~/.authinfo.gpg | awk '/machine outlook.office365.com login bugbounty.chrisg8691@outlook.com port 993/ {print $NF}'"
+AuthMechs LOGIN
+SSLType IMAPS
+# SSLVersions SSLv3
+# The following line should work. If get certificate errors, uncomment the two following lines and read the "Troubleshooting" section.
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+# THEN WE SPECIFY THE LOCAL AND REMOTE STORAGE
+# - THE REMOTE STORAGE IS WHERE WE GET THE MAIL FROM (E.G., THE
+#   SPECIFICATION OF AN IMAP ACCOUNT)
+# - THE LOCAL STORAGE IS WHERE WE STORE THE EMAIL ON OUR COMPUTER
+
+# REMOTE STORAGE (USE THE IMAP ACCOUNT SPECIFIED ABOVE)
+IMAPStore bugbounty.chrisg8691-outlook-remote
+Account bugbounty.chrisg8691-outlook
+
+# LOCAL STORAGE (CREATE DIRECTORIES with mkdir -p ~/Maildir/derek-distrotube)
+MaildirStore bugbounty.chrisg8691-outlook-local
+Path ~/Mail/bugbounty.chrisg8691-outlook/
+Inbox ~/Mail/bugbounty.chrisg8691-outlook/Inbox
+# REQUIRED ONLY IF YOU WANT TO DOWNLOAD ALL SUBFOLDERS; SYNCING SLOWS DOWN
+# SubFolders Verbatim
+
+# CONNECTIONS SPECIFY LINKS BETWEEN REMOTE AND LOCAL FOLDERS
+#
+# CONNECTIONS ARE SPECIFIED USING PATTERNS, WHICH MATCH REMOTE MAIL
+# FOLDERS. SOME COMMONLY USED PATTERS INCLUDE:
+#
+# 1 "*" TO MATCH EVERYTHING
+# 2 "!DIR" TO EXCLUDE "DIR"
+# 3 "DIR" TO MATCH DIR
+
+## All Channel
+Channel bugbounty.chrisg8691-outlook-all
+Far :bugbounty.chrisg8691-outlook-remote:
+Near :bugbounty.chrisg8691-outlook-local:
+Patterns *
+Create Both
+Expunge Both
+SyncState *
+
+# GROUPS PUT TOGETHER CHANNELS, SO THAT WE CAN INVOKE
+# MBSYNC ON A GROUP TO SYNC ALL CHANNELS
+#
+# `bugbounty.chrisg8691-outlook` is `gmail` in the scenario below
+# FOR INSTANCE: "mbsync gmail" GETS MAIL FROM
+# "gmail-inbox", "gmail-sent", "gmail-trash" and
+# "gmail-drafts"
+
+## bugbounty.chrisg8691-outlook Group
+Group bugbounty.chrisg8691-outlook
+Channel bugbounty.chrisg8691-outlook-all
+
+# ================================================================================
