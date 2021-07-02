@@ -82,6 +82,11 @@
       +doom-dashboard-name "► Doom")
 #+end_src
 ** centaur-tabs
+*** initialization
+#+begin_src emacs-lisp
+(require 'centaur-tabs)
+(centaur-tabs-mode t)
+#+end_src
 *** theming
 #+begin_src emacs-lisp
 (setq centaur-tabs-set-bar 'over
@@ -105,10 +110,41 @@
 ** completion
 *** company
 #+begin_src emacs-lisp
-(add-hook 'after-init-hook 'global-company-mode)
+;;(add-hook 'after-init-hook 'global-company-mode)
+(use-package company
+  :custom
+  (company-idle-delay 0.3) ;; how long to wait until popup
+  :bind
+  (:map company-active-map
+	      ("C-n". company-select-next)
+	      ("C-p". company-select-previous)
+	      ("M-<". company-select-first)
+	      ("M->". company-select-last)))
+#+end_src
+*** ivy
+#+begin_src emacs-lisp
+(defadvice! prompt-for-buffer (&rest _)
+  :after '(evil-window-split evil-window-vsplit)
+  (+ivy/switch-buffer))
+
+;; previews
+(setq +ivy-buffer-preview t)
+#+end_src
+*** yasnippet
+#+begin_src emacs-lisp
+(use-package yasnippet
+  :config
+  (yas-reload-all)
+  (add-hook 'prog-mode-hook 'yas-minor-mode)
+  (add-hook 'text-mode-hook 'yas-minor-mode))
+#+end_src
+*** flycheck
+#+begin_src emacs-lisp
+(use-package flycheck)
 #+end_src
 ** org-mode
 #+begin_src emacs-lisp
+;; after org-mode loads
 (after! 'org
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
   (setq org-directory "~/Org/"
@@ -116,40 +152,39 @@
         org-default-notes-file (expand-file-name "notes.org" org-directory)
         org-ellipsis " ▼ "
         org-log-done 'time
-        ;;org-journal-dir "~/Org/journal/"
-        ;;org-journal-date-format "%B %d, %Y (%A) "
-        ;;org-journal-file-format "%Y-%m-%d.org"
         org-hide-emphasis-markers t)
-  ;; (org-babel-do-load-languages 'org-babel-load-languages
-  ;;                              (append org-babel-load-languages
-  ;;                                      '((awk             . t)
-  ;;                                        (browser         . t)
-  ;;                                        (C               . t)
-  ;;                                        (C++             . t)
-  ;;                                        (csharp          . t)
-  ;;                                        (css             . t)
-  ;;                                        (haskell         . t)
-  ;;                                        (http            . t)
-  ;;                                        (java            . t)
-  ;;                                        (js              . t)
-  ;;                                        (kotlin          . t)
-  ;;                                        (lisp            . t)
-  ;;                                        (lua             . t)
-  ;;                                        (make            . t)
-  ;;                                        (mongo           . t)
-  ;;                                        (org             . t)
-  ;;                                        ;;(php             . t)  ; not currently supported?
-  ;;                                        (python          . t)
-  ;;                                        (R               . t)
-  ;;                                        (ruby            . t)
-  ;;                                        (sass            . t)
-  ;;                                        (sed             . t)
-  ;;                                        (shell           . t)
-  ;;                                        (sql             . t)
-  ;;                                        (sqlite          . t)
-  ;;                                        (typescript      . t))))
-  )
+  (org-babel-do-load-languages 'org-babel-load-languages
+                               (append org-babel-load-languages
+                                       '(('awk             . t)
+                                         ('browser         . t)
+                                         ('C               . t)
+                                         ('C++             . t)
+                                         ('csharp          . t)
+                                         ('css             . t)
+                                         ('haskell         . t)
+                                         ('http            . t)
+                                         ('java            . t)
+                                         ('js              . t)
+                                         ('kotlin          . t)
+                                         ('lisp            . t)
+                                         ('lua             . t)
+                                         ('make            . t)
+                                         ('mongo           . t)
+                                         ('org             . t)
+                                         ;;(php             . t)  ; not currently supported?
+                                         ('python          . t)
+                                         ('R               . t)
+                                         ('ruby            . t)
+                                         ('sass            . t)
+                                         ('sed             . t)
+                                         ('shell           . t)
+                                         ('sql             . t)
+                                         ('sqlite          . t)
+                                         ('typescript      . t)))))
 #+end_src
+
+#+RESULTS:
+
 *** setting the font sizes for each header level in org-mode
 #+begin_src emacs-lisp
 ;; (custom-set-faces
@@ -162,7 +197,6 @@
 ** manage email with mu4e email client
 #+begin_src emacs-lisp
 (use-package mu4e
-  ;;:ensure nil
   ;;:load-path "/usr/share/emacs/site-lisp/mu4e"
   :defer 20
   :config
@@ -211,10 +245,13 @@
 ;;         ("/account-1/Drafts"     . ?d)
 ;;         ("/account-1/Trash"      . ?t)))
 #+end_src
+** evil-mode
+*** window management
+#+begin_src emacs-lisp
+(setq evil-vsplit-window-right t
+      evil-split-window-below t)
 
-#+RESULTS:
-: t
-
+#+end_src
 ** misc
 *** emojis
 #+begin_src emacs-lisp

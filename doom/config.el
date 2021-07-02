@@ -59,6 +59,9 @@
 (setq doom-fallback-buffer-name "► Doom"
       +doom-dashboard-name "► Doom")
 
+(require 'centaur-tabs)
+(centaur-tabs-mode t)
+
 (setq centaur-tabs-set-bar 'over
       centaur-tabs-set-icons t
       centaur-tabs-gray-out-icons 'buffer
@@ -75,8 +78,33 @@
 ;;                                                (kbd "g j") 'centaur-tabs-foreward-group
 ;;                                                (kbd "g k") 'centaur-tabs-backward-group)
 
-(add-hook 'after-init-hook 'global-company-mode)
+;;(add-hook 'after-init-hook 'global-company-mode)
+(use-package company
+  :custom
+  (company-idle-delay 0.3) ;; how long to wait until popup
+  :bind
+  (:map company-active-map
+	      ("C-n". company-select-next)
+	      ("C-p". company-select-previous)
+	      ("M-<". company-select-first)
+	      ("M->". company-select-last)))
 
+(defadvice! prompt-for-buffer (&rest _)
+  :after '(evil-window-split evil-window-vsplit)
+  (+ivy/switch-buffer))
+
+;; previews
+(setq +ivy-buffer-preview t)
+
+(use-package yasnippet
+  :config
+  (yas-reload-all)
+  (add-hook 'prog-mode-hook 'yas-minor-mode)
+  (add-hook 'text-mode-hook 'yas-minor-mode))
+
+(use-package flycheck)
+
+;; after org-mode loads
 (after! 'org
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
   (setq org-directory "~/Org/"
@@ -84,39 +112,35 @@
         org-default-notes-file (expand-file-name "notes.org" org-directory)
         org-ellipsis " ▼ "
         org-log-done 'time
-        ;;org-journal-dir "~/Org/journal/"
-        ;;org-journal-date-format "%B %d, %Y (%A) "
-        ;;org-journal-file-format "%Y-%m-%d.org"
         org-hide-emphasis-markers t)
-  ;; (org-babel-do-load-languages 'org-babel-load-languages
-  ;;                              (append org-babel-load-languages
-  ;;                                      '((awk             . t)
-  ;;                                        (browser         . t)
-  ;;                                        (C               . t)
-  ;;                                        (C++             . t)
-  ;;                                        (csharp          . t)
-  ;;                                        (css             . t)
-  ;;                                        (haskell         . t)
-  ;;                                        (http            . t)
-  ;;                                        (java            . t)
-  ;;                                        (js              . t)
-  ;;                                        (kotlin          . t)
-  ;;                                        (lisp            . t)
-  ;;                                        (lua             . t)
-  ;;                                        (make            . t)
-  ;;                                        (mongo           . t)
-  ;;                                        (org             . t)
-  ;;                                        ;;(php             . t)  ; not currently supported?
-  ;;                                        (python          . t)
-  ;;                                        (R               . t)
-  ;;                                        (ruby            . t)
-  ;;                                        (sass            . t)
-  ;;                                        (sed             . t)
-  ;;                                        (shell           . t)
-  ;;                                        (sql             . t)
-  ;;                                        (sqlite          . t)
-  ;;                                        (typescript      . t))))
-  )
+  (org-babel-do-load-languages 'org-babel-load-languages
+                               (append org-babel-load-languages
+                                       '(('awk             . t)
+                                         ('browser         . t)
+                                         ('C               . t)
+                                         ('C++             . t)
+                                         ('csharp          . t)
+                                         ('css             . t)
+                                         ('haskell         . t)
+                                         ('http            . t)
+                                         ('java            . t)
+                                         ('js              . t)
+                                         ('kotlin          . t)
+                                         ('lisp            . t)
+                                         ('lua             . t)
+                                         ('make            . t)
+                                         ('mongo           . t)
+                                         ('org             . t)
+                                         ;;(php             . t)  ; not currently supported?
+                                         ('python          . t)
+                                         ('R               . t)
+                                         ('ruby            . t)
+                                         ('sass            . t)
+                                         ('sed             . t)
+                                         ('shell           . t)
+                                         ('sql             . t)
+                                         ('sqlite          . t)
+                                         ('typescript      . t)))))
 
 ;; (custom-set-faces
 ;;   '(org-level-1 ((t (:inherit outline-1 :height 1.2))))
@@ -126,7 +150,6 @@
 ;;   '(org-level-5 ((t (:inherit outline-5 :height 1.0)))))
 
 (use-package mu4e
-  ;;:ensure nil
   ;;:load-path "/usr/share/emacs/site-lisp/mu4e"
   :defer 20
   :config
@@ -174,6 +197,9 @@
 ;;         ("/account-1/Sent Items" . ?s)
 ;;         ("/account-1/Drafts"     . ?d)
 ;;         ("/account-1/Trash"      . ?t)))
+
+(setq evil-vsplit-window-right t
+      evil-split-window-below t)
 
 (use-package emojify
   :hook (general-after-init . global-emojify-mode))
