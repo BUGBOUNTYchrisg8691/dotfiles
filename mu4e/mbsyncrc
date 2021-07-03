@@ -17,7 +17,7 @@ User chrisg8691@gmail.com
 # Create a plain text file that contains your password. Name it mbsyncpass-acc1. 
 # Then, gpg encrypt it by running: gpg -c mbsyncpass-acc1
 # Then delete the plain text file, leaving only mbsyncpass-acc1.gpg.
-PassCmd "gpg -q --for-your-eyes-only --no-tty -d ~/.authinfo.gpg | awk '/machine imap.gmail.com login chrisg8691@gmail.com/ {print $NF}'"
+PassCmd "gpg -q --for-your-eyes-only --no-tty -d ~/.authinfo.gpg | awk '/imap.gmail.com login chrisg8691@gmail.com/ {print $6}'"
 AuthMechs LOGIN
 SSLType IMAPS
 # SSLVersions SSLv3
@@ -129,7 +129,7 @@ User bugbounty.chrisg8691@gmail.com
 # Create a plain text file that contains your password. Name it mbsyncpass-acc1.
 # Then, gpg encrypt it by running: gpg -c mbsyncpass-acc1
 # Then delete the plain text file, leaving only mbsyncpass-acc1.gpg.
-PassCmd "gpg -q --for-your-eyes-only --no-tty -d ~/.authinfo.gpg | awk '/machine imap.gmail.com login bugbounty.chrisg8691@gmail.com/ {print $NF}'"
+PassCmd "gpg -q --for-your-eyes-only --no-tty -d ~/.authinfo.gpg | awk '/imap.gmail.com login bugbounty.chrisg8691@gmail.com/ {print $6}'"
 AuthMechs LOGIN
 SSLType IMAPS
 # SSLVersions SSLv3
@@ -241,7 +241,7 @@ User chrisg8691@outlook.com
 # Create a plain text file that contains your password. Name it mbsyncpass-acc1.
 # Then, gpg encrypt it by running: gpg -c mbsyncpass-acc1
 # Then delete the plain text file, leaving only mbsyncpass-acc1.gpg.
-PassCmd "gpg -q --for-your-eyes-only --no-tty -d ~/.authinfo.gpg | awk '/machine outlook.office365.com login chrisg8691@outlook.com port 993/ {print $NF}'"
+PassCmd "gpg -q --for-your-eyes-only --no-tty -d ~/.authinfo.gpg | awk '/outlook.office365.com login chrisg8691@outlook.com/ {print $6}'"
 AuthMechs LOGIN
 SSLType IMAPS
 # SSLVersions SSLv3
@@ -307,7 +307,7 @@ User bugbounty.chrisg8691@outlook.com
 # Create a plain text file that contains your password. Name it mbsyncpass-acc1.
 # Then, gpg encrypt it by running: gpg -c mbsyncpass-acc1
 # Then delete the plain text file, leaving only mbsyncpass-acc1.gpg.
-PassCmd "gpg -q --for-your-eyes-only --no-tty -d ~/.authinfo.gpg | awk '/machine outlook.office365.com login bugbounty.chrisg8691@outlook.com port 993/ {print $NF}'"
+PassCmd "gpg -q --for-your-eyes-only --no-tty -d ~/.authinfo.gpg | awk '/outlook.office365.com login bugbounty.chrisg8691@outlook.com/ {print $6}'"
 AuthMechs LOGIN
 SSLType IMAPS
 # SSLVersions SSLv3
