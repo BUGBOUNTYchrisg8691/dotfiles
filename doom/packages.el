@@ -49,6 +49,10 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
 
+;; completion
+;; company-tabnine
+(package! company-tabnine)
+
 ;; org-mode
 (package! org-bullets)
 

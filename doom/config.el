@@ -80,14 +80,86 @@
 
 ;;(add-hook 'after-init-hook 'global-company-mode)
 (use-package company
-  :custom
-  (company-idle-delay 0.3) ;; how long to wait until popup
+  ;;(company-idle-delay 0.3) ;; how long to wait until popup
   :bind
   (:map company-active-map
 	      ("C-n". company-select-next)
 	      ("C-p". company-select-previous)
 	      ("M-<". company-select-first)
 	      ("M->". company-select-last)))
+
+(add-to-list 'company-backends #'company-tabnine )
+
+;; recommended
+;; Trigger completion immediately.
+(setq company-idle-delay 0)
+
+;; Number the candidates (use M-1, M-2 etc to select completions).
+(setq company-show-numbers t)
+
+;; workaround for company-transformers
+(setq company-tabnine--disable-next-transform nil)
+(defun my-company--transform-candidates (func &rest args)
+  (if (not company-tabnine--disable-next-transform)
+      (apply func args)
+    (setq company-tabnine--disable-next-transform nil)
+    (car args)))
+
+(defun my-company-tabnine (func &rest args)
+  (when (eq (car args) 'candidates)
+    (setq company-tabnine--disable-next-transform t))
+  (apply func args))
+
+(advice-add #'company--transform-candidates :around #'my-company--transform-candidates)
+(advice-add #'company-tabnine :around #'my-company-tabnine)
+
+;; set default `company-backends'
+(setq company-backends
+      '((company-files          ; files & directory
+         company-keywords       ; keywords
+         company-capf
+         company-yasnippet
+         )
+        (company-abbrev company-dabbrev)
+        ))
+
+(add-hook 'python-mode-hook
+          (lambda ()
+            (add-to-list (make-local-variable 'company-backends)
+                         'company-anaconda)))
+(dolist (hook '(js-mode-hook
+                js2-mode-hook
+                js3-mode-hook
+                inferior-js-mode-hook
+                ))
+  (add-hook hook
+            (lambda ()
+              (tern-mode t)
+
+              (add-to-list (make-local-variable 'company-backends)
+                           'company-tern)
+              )))
+
+;;;_. company-mode support like auto-complete in web-mode
+
+;; Enable CSS completion between <style>...</style>
+(defadvice company-css (before web-mode-set-up-ac-sources activate)
+  "Set CSS completion based on current language before running `company-css'."
+  (if (equal major-mode 'web-mode)
+      (let ((web-mode-cur-language (web-mode-language-at-pos)))
+        (if (string= web-mode-cur-language "css")
+            (unless css-mode (css-mode))))))
+
+;; Enable JavaScript completion between <script>...</script> etc.
+(defadvice company-tern (before web-mode-set-up-ac-sources activate)
+  "Set `tern-mode' based on current language before running `company-tern'."
+  (if (equal major-mode 'web-mode)
+      (let ((web-mode-cur-language (web-mode-language-at-pos)))
+        (if (or (string= web-mode-cur-language "javascript")
+               (string= web-mode-cur-language "jsx"))
+            (unless tern-mode (tern-mode))
+          ;; (if tern-mode (tern-mode))
+          ))))
 
 (defadvice! prompt-for-buffer (&rest _)
   :after '(evil-window-split evil-window-vsplit)
@@ -160,19 +232,92 @@
   (setq mu4e-get-mail-command "mbsync -a")
   (setq mu4e-maildir "~/Mail")
 
-  ;; email folders
-  ;; just use main email until I learn how to navigate multiple accounts
-  (setq mu4e-drafts-folder "/chrisg8691-gmail/[Gmail].Drafts")
-  (setq mu4e-sent-folder "/chrisg8691-gmail/[Gmail].Sent Mail")
-  (setq mu4e-refile-folder "/chrisg8691-gmail/[Gmail].All Mail")
-  (setq mu4e-trash-folder "/chrisg8691-gmail/[Gmail].Trash")
+  ;; multiple accounts (contexts)
+  (setq mu4e-contexts
+        (list
+         ;; create chrisg8691-gmail account context
+         (make-mu4e-context
+          :name "achrisg8691-gmail"
+          :match-func
+            (lambda (msg)
+              (when msg
+                (string-prefix-p "/chrisg8691-gmail" (mu4e-message-field msg :maildir))))
+          :vars '((user-mail-address . "chrisg8691@gmail.com")
+                  (user-full-name . "Chris Girvin")
+                  (smtpmail-smtp-server . "smtp.gmail.com")
+                  (smtpmail-smtp-service . 465)
+                  (smtpmail-stream-type . ssl)
+                  (mu4e-drafts-folder . "/chrisg8691-gmail/[Gmail].Drafts")
+                  (mu4e-sent-folder . "/chrisg8691-gmail/[Gmail].Sent Mail")
+                  (mu4e-refile-folder . "/chrisg8691-gmail/[Gmail].All Mail")
+                  (mu4e-trash-folder . "/chrisg8691-gmail/[Gmail].Trash")))
 
+         ;; create bugbounty.chrisg8691-gmail account context
+         (make-mu4e-context
+          :name "bbugbounty.chrisg8691-gmail"
+          :match-func
+            (lambda (msg)
+              (when msg
+                (string-prefix-p "/bugbounty.chrisg8691-gmail" (mu4e-message-field msg :maildir))))
+          :vars '((user-mail-address . "bugbounty.chrisg8691@gmail.com")
+                  (user-full-name . "Chris Girvin")
+                  (smtpmail-smtp-server . "smtp.gmail.com")
+                  (smtpmail-smtp-service . 465)
+                  (smtpmail-stream-type . ssl)
+                  (mu4e-drafts-folder . "/bugbounty.chrisg8691-gmail/[Gmail].Drafts")
+                  (mu4e-sent-folder . "/bugbounty.chrisg8691-gmail/[Gmail].Sent Mail")
+                  (mu4e-refile-folder . "/bugbounty.chrisg8691-gmail/[Gmail].All Mail")
+                  (mu4e-trash-folder . "/bugbounty.chrisg8691-gmail/[Gmail].Trash")))
+
+         ;; create chrisg8691-outlook account context
+         (make-mu4e-context
+          :name "cchrisg8691-outlook"
+          :match-func
+            (lambda (msg)
+              (when msg
+                (string-prefix-p "/chrisg8691-outlook" (mu4e-message-field msg :maildir))))
+          :vars '((user-mail-address . "chrisg8691@outlook.com")
+                  (user-full-name . "Chris Girvin")
+                  (smtpmail-smtp-server . "smtp.office365.com")
+                  (smtpmail-smtp-service . 587)
+                  (smtpmail-stream-type . starttls)
+                  (mu4e-drafts-folder . "/chrisg8691-outlook/Drafts")
+                  (mu4e-refile-folder . "/chrisg8691-outlook/Archive")
+                  (mu4e-trash-folder . "/chrisg8691-outlook/Deleted")))
+
+         ;; create bugbounty.chrisg8691-outlook account context
+         (make-mu4e-context
+          :name "dbugbounty.chrisg8691-outlook"
+          :match-func
+            (lambda (msg)
+              (when msg
+                (string-prefix-p "/bugbounty.chrisg8691-outlook" (mu4e-message-field msg :maildir))))
+          :vars '((user-mail-address . "bugbounty.chrisg8691@outlook.com")
+                  (user-full-name . "Chris Girvin")
+                  (smtpmail-smtp-server . "smtp.office365.com")
+                  (smtpmail-smtp-service . 587)
+                  (smtpmail-stream-type . starttls)
+                  (mu4e-drafts-folder . "/bugbounty.chrisg8691-outlook/Drafts")
+                  (mu4e-refile-folder . "/bugbounty.chrisg8691-outlook/Archive")
+                  (mu4e-trash-folder . "/bugbounty.chrisg8691-outlook/Deleted")))))
+
+  ;; shortcuts for main acct
   (setq mu4e-maildir-shortcuts
-        '(("/chrisg8691-gmail/Inbox"             . ?i)
-          ("/chrisg8691-gmail/[Gmail].Sent Mail" . ?s)
-          ("/chrisg8691-gmail/[Gmail].Trash"     . ?t)
-          ("/chrisg8691-gmail/[Gmail].Drafts"    . ?d)
-          ("/chrisg8691-gmail/[Gmail].All Mail"  . ?a)))
+        '(("/chrisg8691-gmail/Inbox"                    . ?i)
+          ("/bugbounty.chrisg8691-gmail/Inbox"          . ?1)
+          ("/chrisg8691-outlook/Inbox"                  . ?2)
+          ("/bugbounty.chrisg8691-outlook/Inbox"        . ?3)
+          ("/chrisg8691-gmail/[Gmail].Sent Mail"        . ?s)
+          ("/chrisg8691-gmail/[Gmail].Trash"            . ?t)
+          ("/chrisg8691-gmail/[Gmail].Drafts"           . ?d)
+          ("/chrisg8691-gmail/[Gmail].All Mail"         . ?a)))
+
+  ;; set context policies
+  ;; (setq mu4e-compose-context-policy 'ask)
+  ;; (setq mu4e-context-policy "chrisg8691-gmail")
+
+  ;; set message-send-mail-function to use email providers smtp service through smtpmail package
+  (setq message-send-mail-function 'smtpmail-send-it)
 
   ;; run mu4e in the background
   (mu4e t))
