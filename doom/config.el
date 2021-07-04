@@ -78,8 +78,8 @@
 ;;                                                (kbd "g j") 'centaur-tabs-foreward-group
 ;;                                                (kbd "g k") 'centaur-tabs-backward-group)
 
-;;(add-hook 'after-init-hook 'global-company-mode)
-(use-package company
+(add-hook 'after-init-hook 'global-company-mode)
+(use-package! company
   ;;(company-idle-delay 0.3) ;; how long to wait until popup
   :bind
   (:map company-active-map
@@ -88,6 +88,7 @@
 	      ("M-<". company-select-first)
 	      ("M->". company-select-last)))
 
+;; tabnine backend
 (add-to-list 'company-backends #'company-tabnine )
 
 ;; recommended
@@ -102,16 +103,16 @@
 (defun my-company--transform-candidates (func &rest args)
   (if (not company-tabnine--disable-next-transform)
       (apply func args)
-    (setq company-tabnine--disable-next-transform nil)
-    (car args)))
+      (setq company-tabnine--disable-next-transform nil)
+      (car args)))
 
 (defun my-company-tabnine (func &rest args)
   (when (eq (car args) 'candidates)
     (setq company-tabnine--disable-next-transform t))
   (apply func args))
 
-(advice-add #'company--transform-candidates :around #'my-company--transform-candidates)
-(advice-add #'company-tabnine :around #'my-company-tabnine)
+(advice-add #'company--transform-candidates :around #'my-company--transform-candidates )
+(advice-add #'company-tabnine :around #'my-company-tabnine )
 
 ;; set default `company-backends'
 (setq company-backends
@@ -221,6 +222,8 @@
 ;;   '(org-level-4 ((t (:inherit outline-4 :height 1.0))))
 ;;   '(org-level-5 ((t (:inherit outline-5 :height 1.0)))))
 
+
+
 (use-package mu4e
   ;;:load-path "/usr/share/emacs/site-lisp/mu4e"
   :defer 20
@@ -232,6 +235,9 @@
   (setq mu4e-get-mail-command "mbsync -a")
   (setq mu4e-maildir "~/Mail")
 
+  ;; set message-send-mail-function to use email providers smtp service through smtpmail package
+  (setq message-send-mail-function 'smtpmail-send-it)
+
   ;; multiple accounts (contexts)
   (setq mu4e-contexts
         (list
@@ -242,15 +248,15 @@
             (lambda (msg)
               (when msg
                 (string-prefix-p "/chrisg8691-gmail" (mu4e-message-field msg :maildir))))
-          :vars '((user-mail-address . "chrisg8691@gmail.com")
-                  (user-full-name . "Chris Girvin")
-                  (smtpmail-smtp-server . "smtp.gmail.com")
-                  (smtpmail-smtp-service . 465)
-                  (smtpmail-stream-type . ssl)
-                  (mu4e-drafts-folder . "/chrisg8691-gmail/[Gmail].Drafts")
-                  (mu4e-sent-folder . "/chrisg8691-gmail/[Gmail].Sent Mail")
-                  (mu4e-refile-folder . "/chrisg8691-gmail/[Gmail].All Mail")
-                  (mu4e-trash-folder . "/chrisg8691-gmail/[Gmail].Trash")))
+          :vars '((user-mail-address            . "chrisg8691@gmail.com")
+                  (user-full-name               . "Chris Girvin")
+                  (smtpmail-smtp-server         . "smtp.gmail.com")
+                  (smtpmail-smtp-service        . 465)
+                  (smtpmail-stream-type         . ssl)
+                  (mu4e-drafts-folder           . "/chrisg8691-gmail/[Gmail].Drafts")
+                  (mu4e-sent-folder             . "/chrisg8691-gmail/[Gmail].Sent Mail")
+                  (mu4e-refile-folder           . "/chrisg8691-gmail/[Gmail].All Mail")
+                  (mu4e-trash-folder            . "/chrisg8691-gmail/[Gmail].Trash")))
 
          ;; create bugbounty.chrisg8691-gmail account context
          (make-mu4e-context
@@ -259,15 +265,15 @@
             (lambda (msg)
               (when msg
                 (string-prefix-p "/bugbounty.chrisg8691-gmail" (mu4e-message-field msg :maildir))))
-          :vars '((user-mail-address . "bugbounty.chrisg8691@gmail.com")
-                  (user-full-name . "Chris Girvin")
-                  (smtpmail-smtp-server . "smtp.gmail.com")
-                  (smtpmail-smtp-service . 465)
-                  (smtpmail-stream-type . ssl)
-                  (mu4e-drafts-folder . "/bugbounty.chrisg8691-gmail/[Gmail].Drafts")
-                  (mu4e-sent-folder . "/bugbounty.chrisg8691-gmail/[Gmail].Sent Mail")
-                  (mu4e-refile-folder . "/bugbounty.chrisg8691-gmail/[Gmail].All Mail")
-                  (mu4e-trash-folder . "/bugbounty.chrisg8691-gmail/[Gmail].Trash")))
+          :vars '((user-mail-address            . "bugbounty.chrisg8691@gmail.com")
+                  (user-full-name               . "Chris Girvin")
+                  (smtpmail-smtp-server         . "smtp.gmail.com")
+                  (smtpmail-smtp-service        . 465)
+                  (smtpmail-stream-type         . ssl)
+                  (mu4e-drafts-folder           . "/bugbounty.chrisg8691-gmail/[Gmail].Drafts")
+                  (mu4e-sent-folder             . "/bugbounty.chrisg8691-gmail/[Gmail].Sent Mail")
+                  (mu4e-refile-folder           . "/bugbounty.chrisg8691-gmail/[Gmail].All Mail")
+                  (mu4e-trash-folder            . "/bugbounty.chrisg8691-gmail/[Gmail].Trash")))
 
          ;; create chrisg8691-outlook account context
          (make-mu4e-context
@@ -276,14 +282,14 @@
             (lambda (msg)
               (when msg
                 (string-prefix-p "/chrisg8691-outlook" (mu4e-message-field msg :maildir))))
-          :vars '((user-mail-address . "chrisg8691@outlook.com")
-                  (user-full-name . "Chris Girvin")
-                  (smtpmail-smtp-server . "smtp.office365.com")
-                  (smtpmail-smtp-service . 587)
-                  (smtpmail-stream-type . starttls)
-                  (mu4e-drafts-folder . "/chrisg8691-outlook/Drafts")
-                  (mu4e-refile-folder . "/chrisg8691-outlook/Archive")
-                  (mu4e-trash-folder . "/chrisg8691-outlook/Deleted")))
+          :vars '((user-mail-address            . "chrisg8691@outlook.com")
+                  (user-full-name               . "Chris Girvin")
+                  (smtpmail-smtp-server         . "smtp.office365.com")
+                  (smtpmail-smtp-service        . 587)
+                  (smtpmail-stream-type         . starttls)
+                  (mu4e-drafts-folder           . "/chrisg8691-outlook/Drafts")
+                  (mu4e-refile-folder           . "/chrisg8691-outlook/Archive")
+                  (mu4e-trash-folder            . "/chrisg8691-outlook/Deleted")))
 
          ;; create bugbounty.chrisg8691-outlook account context
          (make-mu4e-context
@@ -292,14 +298,14 @@
             (lambda (msg)
               (when msg
                 (string-prefix-p "/bugbounty.chrisg8691-outlook" (mu4e-message-field msg :maildir))))
-          :vars '((user-mail-address . "bugbounty.chrisg8691@outlook.com")
-                  (user-full-name . "Chris Girvin")
-                  (smtpmail-smtp-server . "smtp.office365.com")
-                  (smtpmail-smtp-service . 587)
-                  (smtpmail-stream-type . starttls)
-                  (mu4e-drafts-folder . "/bugbounty.chrisg8691-outlook/Drafts")
-                  (mu4e-refile-folder . "/bugbounty.chrisg8691-outlook/Archive")
-                  (mu4e-trash-folder . "/bugbounty.chrisg8691-outlook/Deleted")))))
+          :vars '((user-mail-address            . "bugbounty.chrisg8691@outlook.com")
+                  (user-full-name               . "Chris Girvin")
+                  (smtpmail-smtp-server         . "smtp.office365.com")
+                  (smtpmail-smtp-service        . 587)
+                  (smtpmail-stream-type         . starttls)
+                  (mu4e-drafts-folder           . "/bugbounty.chrisg8691-outlook/Drafts")
+                  (mu4e-refile-folder           . "/bugbounty.chrisg8691-outlook/Archive")
+                  (mu4e-trash-folder            . "/bugbounty.chrisg8691-outlook/Deleted")))))
 
   ;; shortcuts for main acct
   (setq mu4e-maildir-shortcuts
@@ -315,9 +321,6 @@
   ;; set context policies
   ;; (setq mu4e-compose-context-policy 'ask)
   ;; (setq mu4e-context-policy "chrisg8691-gmail")
-
-  ;; set message-send-mail-function to use email providers smtp service through smtpmail package
-  (setq message-send-mail-function 'smtpmail-send-it)
 
   ;; run mu4e in the background
   (mu4e t))
@@ -343,8 +346,11 @@
 ;;         ("/account-1/Drafts"     . ?d)
 ;;         ("/account-1/Trash"      . ?t)))
 
-(setq evil-vsplit-window-right t
-      evil-split-window-below t)
-
 (use-package emojify
   :hook (general-after-init . global-emojify-mode))
+
+(defun efs/lookup-password (&rest keys)
+  (let ((result (apply #'auth-source-search keys)))
+    (if result
+        (funcall (plist-get (car result) :secret))
+      nil)))
