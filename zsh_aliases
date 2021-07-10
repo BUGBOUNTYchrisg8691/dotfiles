@@ -21,6 +21,11 @@ alias cat="ccat $argv"
 ## configuration
 alias src="clear && source $HOME/.zshrc"
 
+## emacs
+alias m='e --eval "(progn (magit-status) (delete-other-windows))"'
+alias mt="m -t"
+alias et="e -t"
+
 ## functions
 
 ## emacs

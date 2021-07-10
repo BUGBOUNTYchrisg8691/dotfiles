@@ -6,9 +6,12 @@ export GOBIN="$HOME/go/bin"
 export PATH="$GOBIN:$PATH"
 
 ## Emacs
-export PATH="$HOME/.emacs.d/bin:$PATH"
 ## Doom Emacs
-export DOOMDIR="$HOME/Tools/Config/dotfiles/doom"
+export DOOMDIR="$HOME/.config/doom"
+#export DOOMDIR="$HOME/.doom-config.d"
+export EMACSDIR="$HOME/.emacs.d"
+export DOOMLOCALDIR="$EMACSDIR/.local"
+export PATH="$EMACSDIR/bin:$PATH"
 
 ## Ruby/RubyGem
 export PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"
