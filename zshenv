@@ -5,6 +5,9 @@ export PATH="$HOME/.local/bin:$PATH"
 export GOBIN="$HOME/go/bin"
 export PATH="$GOBIN:$PATH"
 
+## SpaceVim
+export PYTHON3_HOST_PROG="$HOME/.config/nvim/.venv/bin/python3"
+
 ## Emacs
 ## Doom Emacs
 export DOOMDIR="$HOME/.config/doom"
