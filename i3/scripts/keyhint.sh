@@ -1,0 +1,2 @@
+#!/bin/sh
+yad --title="EndeavourOS i3-wm keybindings:" --no-buttons --geometry=400x345-15-400 --list --column=key: --column=description: --column=command: "ESC" "close this app" "" "=alt" "modkey" "(set mod Mod1)" "+enter" "open a terminal" "" "+w" "open Browser" "" "+n" "open Filebrowser" "" "F9 or +d" "app menu" "(rofi)" "+c" "close focused app" "(kill)" "Print-key" "screenshot" "(scrot)" "+Shift+e" "logout menu" "(rofi)" "+F1" "open keybinding helper" "full list"
