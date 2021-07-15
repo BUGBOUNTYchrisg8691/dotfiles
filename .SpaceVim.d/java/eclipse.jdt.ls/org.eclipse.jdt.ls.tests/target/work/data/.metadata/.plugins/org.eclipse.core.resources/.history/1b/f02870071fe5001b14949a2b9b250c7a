@@ -1,0 +1,13 @@
+package p;
+
+public class B {
+
+	private Object o;
+
+	/**
+	 * @return Returns the o.
+	 */
+	synchronized Object getO() {
+		return o;
+	}
+}

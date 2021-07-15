@@ -1,0 +1,5 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.refactoring.LambdaToAnonymousClassCreationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.582 s - in org.eclipse.jdt.ls.core.internal.refactoring.LambdaToAnonymousClassCreationTest
+testConvertToAnonymousClassCreation(org.eclipse.jdt.ls.core.internal.refactoring.LambdaToAnonymousClassCreationTest)  Time elapsed: 0.582 s

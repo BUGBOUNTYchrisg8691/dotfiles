@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.132 s - in org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest
+testBoundaries(org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest)  Time elapsed: 0.089 s
+testVersionTag(org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest)  Time elapsed: 0.004 s
+testThrowsTag(org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest)  Time elapsed: 0.001 s
+testMarkdownTableNoTHEAD(org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest)  Time elapsed: 0.005 s
+testMarkdownTableInsertBlankHeader(org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest)  Time elapsed: 0.002 s
+testGetAsReader(org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest)  Time elapsed: 0.019 s
+testGetAsString(org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest)  Time elapsed: 0.006 s
+testLinkToFileIsPresent(org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest)  Time elapsed: 0.001 s
+testSinceTag(org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest)  Time elapsed: 0 s
+testLinkToJdtFileIsPresent(org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest)  Time elapsed: 0.001 s
+testSeeTag(org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest)  Time elapsed: 0.001 s
+testParamTag(org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest)  Time elapsed: 0.001 s
+testAuthorTag(org.eclipse.jdt.ls.core.internal.javadoc.JavaDoc2MarkdownConverterTest)  Time elapsed: 0.001 s

@@ -1,0 +1,7 @@
+package p;
+
+public class A {
+
+	private enum ENUM { C,D,E };
+}
+

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.codemanipulation.ImportOrganizeTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.912 s - in org.eclipse.jdt.ls.core.internal.codemanipulation.ImportOrganizeTest
+test1WithOrder(org.eclipse.jdt.ls.core.internal.codemanipulation.ImportOrganizeTest)  Time elapsed: 0.777 s
+test1(org.eclipse.jdt.ls.core.internal.codemanipulation.ImportOrganizeTest)  Time elapsed: 0.497 s
+testStaticImports1(org.eclipse.jdt.ls.core.internal.codemanipulation.ImportOrganizeTest)  Time elapsed: 0.962 s
+testStaticImports2(org.eclipse.jdt.ls.core.internal.codemanipulation.ImportOrganizeTest)  Time elapsed: 0.676 s

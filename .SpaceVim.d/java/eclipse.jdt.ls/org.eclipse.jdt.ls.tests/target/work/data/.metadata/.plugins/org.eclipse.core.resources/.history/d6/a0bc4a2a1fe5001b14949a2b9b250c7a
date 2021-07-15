@@ -1,0 +1,9 @@
+package p;
+
+public class Test5 implements F {
+    public void foo() {
+        Properties p= new Properties();
+        p.get();
+    }
+}
+

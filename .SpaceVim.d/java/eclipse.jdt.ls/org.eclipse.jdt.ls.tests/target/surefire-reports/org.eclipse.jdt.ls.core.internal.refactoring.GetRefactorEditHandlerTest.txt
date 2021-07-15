@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.refactoring.GetRefactorEditHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.731 s - in org.eclipse.jdt.ls.core.internal.refactoring.GetRefactorEditHandlerTest
+testExtractVariable(org.eclipse.jdt.ls.core.internal.refactoring.GetRefactorEditHandlerTest)  Time elapsed: 0.144 s
+testExtractConstant(org.eclipse.jdt.ls.core.internal.refactoring.GetRefactorEditHandlerTest)  Time elapsed: 0.129 s
+testExtractVariableAllOccurrence(org.eclipse.jdt.ls.core.internal.refactoring.GetRefactorEditHandlerTest)  Time elapsed: 0.123 s
+testExtractMethod(org.eclipse.jdt.ls.core.internal.refactoring.GetRefactorEditHandlerTest)  Time elapsed: 0.196 s
+testExtractField(org.eclipse.jdt.ls.core.internal.refactoring.GetRefactorEditHandlerTest)  Time elapsed: 0.139 s

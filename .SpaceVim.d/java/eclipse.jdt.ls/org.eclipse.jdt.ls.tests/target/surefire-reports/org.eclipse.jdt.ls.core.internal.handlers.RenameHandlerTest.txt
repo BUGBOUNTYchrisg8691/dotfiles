@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.26 s - in org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest
+testRenamePackage(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 0.654 s
+testRenameType(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 1.165 s
+testRenameTypeParameter(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 0.147 s
+testRenameOverrideMethodSimple(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 1.03 s
+testRenameLocalVariable(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 0.163 s
+testRenameField(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 0.372 s
+testRenameSystemLibrary(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 0.121 s
+testRenameSuperMethod(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 0.538 s
+testRenameParameter(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 0.121 s
+testRenameConstructor(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 0.638 s
+testRenameTypeLombok(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 1.468 s
+testRenameMethod(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 1.145 s
+testRenameTypeParameterInMethod(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 0.139 s
+testRenameMultipleFiles(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 1.05 s
+testRenameTypeWithErrors(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 0.133 s
+testRenameJavadoc(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 0.145 s
+testRenameTypeWithResourceChanges(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 0.857 s
+testRenameOverrideMethodComplex(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 1.196 s
+testRenameInterfaceMethod(org.eclipse.jdt.ls.core.internal.handlers.RenameHandlerTest)  Time elapsed: 1.177 s

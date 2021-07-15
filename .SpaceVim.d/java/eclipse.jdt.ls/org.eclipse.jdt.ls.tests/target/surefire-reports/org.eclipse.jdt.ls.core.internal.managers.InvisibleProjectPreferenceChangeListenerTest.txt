@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectPreferenceChangeListenerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.038 s - in org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectPreferenceChangeListenerTest
+testUpdateSourcePaths2(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectPreferenceChangeListenerTest)  Time elapsed: 0.203 s
+testUpdateOutputPathToUnEmptyFolder(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectPreferenceChangeListenerTest)  Time elapsed: 0.18 s
+testUpdateOutputPath(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectPreferenceChangeListenerTest)  Time elapsed: 0.158 s
+testUpdateSourcePaths(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectPreferenceChangeListenerTest)  Time elapsed: 0.17 s
+testUpdateOutputPathWontAffectSourcePath(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectPreferenceChangeListenerTest)  Time elapsed: 0.176 s
+testWhenRootPathChanged(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectPreferenceChangeListenerTest)  Time elapsed: 0.15 s

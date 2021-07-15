@@ -1,0 +1,7 @@
+package p;
+
+public class Test implements Cloneable {
+	final String field1 = null;/*|*/
+	public Test() {
+	}
+}

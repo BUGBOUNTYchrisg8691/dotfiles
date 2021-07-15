@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.SerialVersionQuickFixTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.954 s - in org.eclipse.jdt.ls.core.internal.correction.SerialVersionQuickFixTest
+testAnonymousClass(org.eclipse.jdt.ls.core.internal.correction.SerialVersionQuickFixTest)  Time elapsed: 0.17 s
+testInnerClass(org.eclipse.jdt.ls.core.internal.correction.SerialVersionQuickFixTest)  Time elapsed: 0.173 s
+testLocalClass(org.eclipse.jdt.ls.core.internal.correction.SerialVersionQuickFixTest)  Time elapsed: 0.155 s
+testOuterClass(org.eclipse.jdt.ls.core.internal.correction.SerialVersionQuickFixTest)  Time elapsed: 0.149 s
+testOuterClass2(org.eclipse.jdt.ls.core.internal.correction.SerialVersionQuickFixTest)  Time elapsed: 0.149 s
+testOuterClass3(org.eclipse.jdt.ls.core.internal.correction.SerialVersionQuickFixTest)  Time elapsed: 0.157 s

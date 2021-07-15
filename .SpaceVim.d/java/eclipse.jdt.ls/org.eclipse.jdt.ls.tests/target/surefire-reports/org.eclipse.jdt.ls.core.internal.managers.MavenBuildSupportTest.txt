@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.managers.MavenBuildSupportTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.608 s - in org.eclipse.jdt.ls.core.internal.managers.MavenBuildSupportTest
+testDownloadSources(org.eclipse.jdt.ls.core.internal.managers.MavenBuildSupportTest)  Time elapsed: 1.006 s
+testBatchImport(org.eclipse.jdt.ls.core.internal.managers.MavenBuildSupportTest)  Time elapsed: 0.723 s
+testIgnoreInnerPomChanges(org.eclipse.jdt.ls.core.internal.managers.MavenBuildSupportTest)  Time elapsed: 0.39 s
+testMultipleProjects(org.eclipse.jdt.ls.core.internal.managers.MavenBuildSupportTest)  Time elapsed: 0.458 s
+testBuildHelperSupport(org.eclipse.jdt.ls.core.internal.managers.MavenBuildSupportTest)  Time elapsed: 1.789 s
+testCompileWithErrorProne(org.eclipse.jdt.ls.core.internal.managers.MavenBuildSupportTest)  Time elapsed: 2.655 s
+testUpdateSnapshots(org.eclipse.jdt.ls.core.internal.managers.MavenBuildSupportTest)  Time elapsed: 1.109 s
+testCompileWithEclipse(org.eclipse.jdt.ls.core.internal.managers.MavenBuildSupportTest)  Time elapsed: 0.946 s
+testCompileWithEclipseTychoJdt(org.eclipse.jdt.ls.core.internal.managers.MavenBuildSupportTest)  Time elapsed: 1.285 s
+testUpdate(org.eclipse.jdt.ls.core.internal.managers.MavenBuildSupportTest)  Time elapsed: 0.987 s
+testInvalidProjects(org.eclipse.jdt.ls.core.internal.managers.MavenBuildSupportTest)  Time elapsed: 0.259 s

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.refactoring.InlineConstantTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.88 s - in org.eclipse.jdt.ls.core.internal.refactoring.InlineConstantTest
+testInlineConstant_DeclarationSelected(org.eclipse.jdt.ls.core.internal.refactoring.InlineConstantTest)  Time elapsed: 0.531 s
+testInlineConstant_ReferenceInImports(org.eclipse.jdt.ls.core.internal.refactoring.InlineConstantTest)  Time elapsed: 0.557 s
+testInlineConstant_InvocationSelected(org.eclipse.jdt.ls.core.internal.refactoring.InlineConstantTest)  Time elapsed: 1.256 s
+testInlineConstant_NoReference(org.eclipse.jdt.ls.core.internal.refactoring.InlineConstantTest)  Time elapsed: 0.535 s

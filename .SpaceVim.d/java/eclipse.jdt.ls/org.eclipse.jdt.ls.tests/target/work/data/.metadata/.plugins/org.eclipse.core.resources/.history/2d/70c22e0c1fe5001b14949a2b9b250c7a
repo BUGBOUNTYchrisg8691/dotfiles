@@ -1,0 +1,12 @@
+package p;
+
+public class B {
+	private static String UUID = "23434343";
+	String name;
+	public int hashCode() {
+		return 0;
+	}
+	public boolean equals(Object obj) {
+		return false;
+	}
+}

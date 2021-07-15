@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.494 s - in org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest
+testDoneWithSmartIs(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.167 s
+test10(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.145 s
+test0(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.137 s
+test1(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.15 s
+test2(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.17 s
+test3(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.136 s
+test4(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.186 s
+test5(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.177 s
+test7(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.151 s
+test9(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.142 s
+testGenerateAfterCursorPosition(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.147 s
+testWithoutGeneratingComments(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.156 s
+testGenerateBeforeCursorPosition(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.128 s
+testIsDoneWithSmartIs(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.171 s
+testNoGeneratorForInterface(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.166 s
+testGeneratorForStatic(org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterAndSetterTest)  Time elapsed: 0.163 s

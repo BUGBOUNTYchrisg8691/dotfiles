@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.commands.BuildPathCommandTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.019 s - in org.eclipse.jdt.ls.core.internal.commands.BuildPathCommandTest
+testBuildPathOperationInMavenProject(org.eclipse.jdt.ls.core.internal.commands.BuildPathCommandTest)  Time elapsed: 0.366 s
+testBuildPathOperationInEclipseProject(org.eclipse.jdt.ls.core.internal.commands.BuildPathCommandTest)  Time elapsed: 0.186 s
+testBuildPathOperationInGradleProject(org.eclipse.jdt.ls.core.internal.commands.BuildPathCommandTest)  Time elapsed: 0.396 s
+testBuildPathOperationInWorkspaceProject(org.eclipse.jdt.ls.core.internal.commands.BuildPathCommandTest)  Time elapsed: 0.071 s

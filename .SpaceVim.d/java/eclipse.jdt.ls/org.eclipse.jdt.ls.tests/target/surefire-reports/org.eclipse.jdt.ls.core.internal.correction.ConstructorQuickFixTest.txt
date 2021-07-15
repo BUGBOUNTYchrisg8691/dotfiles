@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.ConstructorQuickFixTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.46 s - in org.eclipse.jdt.ls.core.internal.correction.ConstructorQuickFixTest
+testNotVisibleConstructorFromSuperClass(org.eclipse.jdt.ls.core.internal.correction.ConstructorQuickFixTest)  Time elapsed: 0.178 s
+testUndefinedConstructorFromSuperClass(org.eclipse.jdt.ls.core.internal.correction.ConstructorQuickFixTest)  Time elapsed: 0.129 s
+testMultipleUndefinedConstructorFromSuperClass(org.eclipse.jdt.ls.core.internal.correction.ConstructorQuickFixTest)  Time elapsed: 0.152 s

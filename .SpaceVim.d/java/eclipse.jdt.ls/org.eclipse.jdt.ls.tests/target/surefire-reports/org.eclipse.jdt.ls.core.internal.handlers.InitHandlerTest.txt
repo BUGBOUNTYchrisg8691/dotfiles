@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.InitHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.422 s - in org.eclipse.jdt.ls.core.internal.handlers.InitHandlerTest
+testStaticCommandWithDynamicRegistration(org.eclipse.jdt.ls.core.internal.handlers.InitHandlerTest)  Time elapsed: 0.115 s
+testRegisterDelayedCapability(org.eclipse.jdt.ls.core.internal.handlers.InitHandlerTest)  Time elapsed: 0.077 s
+testExecuteCommandProviderDynamicRegistration(org.eclipse.jdt.ls.core.internal.handlers.InitHandlerTest)  Time elapsed: 0.069 s
+testExecuteCommandProvider(org.eclipse.jdt.ls.core.internal.handlers.InitHandlerTest)  Time elapsed: 0.074 s
+testWillSaveAndWillSaveWaitUntilCapabilities(org.eclipse.jdt.ls.core.internal.handlers.InitHandlerTest)  Time elapsed: 0.068 s
+testConfigureJVMs(org.eclipse.jdt.ls.core.internal.handlers.InitHandlerTest)  Time elapsed: 0.096 s
+testMavenSettings(org.eclipse.jdt.ls.core.internal.handlers.InitHandlerTest)  Time elapsed: 0.03 s
+testJavaImportExclusions(org.eclipse.jdt.ls.core.internal.handlers.InitHandlerTest)  Time elapsed: 0.029 s
+testInitOnSymbolicLinkFolder(org.eclipse.jdt.ls.core.internal.handlers.InitHandlerTest)  Time elapsed: 14.609 s
+testStaticCommandWithoutDynamicRegistration(org.eclipse.jdt.ls.core.internal.handlers.InitHandlerTest)  Time elapsed: 0.068 s
+testWatchers(org.eclipse.jdt.ls.core.internal.handlers.InitHandlerTest)  Time elapsed: 1.13 s
+testMissingResourceOperations(org.eclipse.jdt.ls.core.internal.handlers.InitHandlerTest)  Time elapsed: 0.056 s

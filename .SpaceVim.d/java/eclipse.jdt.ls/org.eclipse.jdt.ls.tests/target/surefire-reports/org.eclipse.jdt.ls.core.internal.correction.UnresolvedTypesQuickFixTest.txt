@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 17.88 s - in org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest
+testAmbiguousTypeInExceptionType(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.632 s
+testIndirectRefDefaultClass(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest) skipped
+testAmbiguousTypeInField(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.685 s
+testAmbiguousTypeInSuperClass(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.665 s
+testPrimitiveTypeInFieldDecl(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.663 s
+testTypeInAnnotation(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.654 s
+testTypeInSuperType(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.724 s
+testTypeInVarDeclWithWildcard(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.673 s
+testArrayTypeInStatement(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.673 s
+testParameterizedType1(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.667 s
+testParameterizedType2(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.725 s
+testAmbiguousTypeInCatchBlock(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.678 s
+testTypeInCatchBlock(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest) skipped
+testTypeInExceptionType(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest) skipped
+testTypeInMethodReturnType(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.718 s
+testAmbiguousTypeInInterface(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.724 s
+testTypeInMethodArguments(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.658 s
+testTypeInFieldDecl(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.644 s
+testTypeInAnnotation_bug153881(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.744 s
+testInnerType(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.212 s
+testDontImportTestClassesInMainCode(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.479 s
+testTypeInSealedTypeDeclaration(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.677 s
+testAmbiguousTypeInArgument(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.764 s
+testForEachMissingType(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.746 s
+testTypeInStatement(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.657 s
+testTypeInSuperInterface(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.644 s
+testAmbiguousTypeInReturnType(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.702 s
+testTypeInTypeArguments1(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.664 s
+testTypeInTypeArguments2(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.731 s
+testQualifiedType(org.eclipse.jdt.ls.core.internal.correction.UnresolvedTypesQuickFixTest)  Time elapsed: 0.675 s

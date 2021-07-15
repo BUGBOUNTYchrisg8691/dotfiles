@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.323 s - in org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest
+testFormattingOnTypeSemiColumn(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.227 s
+testFormattingOnTypeNewLine(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.189 s
+testGoogleFormatter(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.204 s
+testFormatting_indent_switchstatementsDefault(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.196 s
+testGoogleFormatterFilePath(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.238 s
+testRelativeFilePath(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.369 s
+testFormatting_indent_switchstatementsFalse(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.186 s
+testDocumentFormattingWithTabs(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.192 s
+testStringFormatting(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.186 s
+testFilePath(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.237 s
+testJavaFormatEnable(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.214 s
+testFormattingOnTypeReturnAfterEmptyBlock(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.186 s
+testDocumentFormattingWithCustomOption(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.19 s
+testStringFormattingWithDefaultSettings(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.206 s
+testFormatting_onOffTags(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.203 s
+testDisableFormattingOnType(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.199 s
+testStringFormattingWithUpdating(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.214 s
+testDocumentFormatting(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.202 s
+testFormattingOnTypeReturnAfterEmptyLine(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.184 s
+testProfileSettings(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.218 s
+testFormattingOnTypeReturnAfterOpeningBlock(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.241 s
+testFormattingOnTypeReturnAfterClosedBlock(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.202 s
+testUpdateFormatterVersion(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.19 s
+testRangeFormatting(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.22 s
+testFormattingOnTypeCloseBlock(org.eclipse.jdt.ls.core.internal.handlers.FormatterHandlerTest)  Time elapsed: 0.228 s

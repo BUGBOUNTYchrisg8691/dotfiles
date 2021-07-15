@@ -1,0 +1,10 @@
+public class Test480682 extends Base {
+}
+abstract class Base implements I {
+    @Override
+    public final void method1() {}
+}
+interface I {
+    void method1();
+    void method2();
+}

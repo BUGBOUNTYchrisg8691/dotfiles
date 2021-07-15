@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/chrisg/.SpaceVim.d/java/eclipse.jdt.ls/org.eclipse.jdt.ls.tests/target/work/data/.metadata/.plugins/org.eclipse.jdt.core
+1088008209.index
+3901146840.index

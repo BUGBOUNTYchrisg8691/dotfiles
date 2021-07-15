@@ -1,0 +1,11 @@
+package p;
+
+import java.util.List;
+
+public class B {
+	private static String UUID = "23434343";
+	String name;
+	int id;
+	List<String> aList;/*|*/
+	String[] arrays;
+}

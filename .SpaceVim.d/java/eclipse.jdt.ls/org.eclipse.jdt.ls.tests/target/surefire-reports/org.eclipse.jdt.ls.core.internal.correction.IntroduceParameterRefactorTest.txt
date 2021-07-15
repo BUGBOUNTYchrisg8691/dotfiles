@@ -1,0 +1,5 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.IntroduceParameterRefactorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.8 s - in org.eclipse.jdt.ls.core.internal.correction.IntroduceParameterRefactorTest
+testIntroduceParameter(org.eclipse.jdt.ls.core.internal.correction.IntroduceParameterRefactorTest)  Time elapsed: 0.799 s

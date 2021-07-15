@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectBuildSupportTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.269 s - in org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectBuildSupportTest
+testManuallyReferenceLibraries(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectBuildSupportTest)  Time elapsed: 0.183 s
+testDynamicSourceLookups(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectBuildSupportTest)  Time elapsed: 1.891 s
+testDynamicReferenceLibraries(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectBuildSupportTest)  Time elapsed: 0.298 s
+testDynamicLibDetection(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectBuildSupportTest)  Time elapsed: 0.369 s
+testDebounceJarDetection(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectBuildSupportTest)  Time elapsed: 0.621 s
+testImportReferencedLibrariesConfiguration(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectBuildSupportTest)  Time elapsed: 0.031 s
+testUpdateReferencedLibraries(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectBuildSupportTest)  Time elapsed: 0.857 s
+testVariableReferenceLibraries(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectBuildSupportTest)  Time elapsed: 0.019 s

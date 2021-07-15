@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.codemanipulation.OverrideMethodsTestCase
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.004 s - in org.eclipse.jdt.ls.core.internal.codemanipulation.OverrideMethodsTestCase
+testCloneable(org.eclipse.jdt.ls.core.internal.codemanipulation.OverrideMethodsTestCase)  Time elapsed: 0.339 s
+testBug119171(org.eclipse.jdt.ls.core.internal.codemanipulation.OverrideMethodsTestCase)  Time elapsed: 0.307 s
+testBug297183(org.eclipse.jdt.ls.core.internal.codemanipulation.OverrideMethodsTestCase)  Time elapsed: 0.278 s
+test1(org.eclipse.jdt.ls.core.internal.codemanipulation.OverrideMethodsTestCase)  Time elapsed: 0.331 s
+test2(org.eclipse.jdt.ls.core.internal.codemanipulation.OverrideMethodsTestCase)  Time elapsed: 0.307 s
+test3(org.eclipse.jdt.ls.core.internal.codemanipulation.OverrideMethodsTestCase)  Time elapsed: 0.31 s
+test4(org.eclipse.jdt.ls.core.internal.codemanipulation.OverrideMethodsTestCase)  Time elapsed: 0.341 s
+testBug480682(org.eclipse.jdt.ls.core.internal.codemanipulation.OverrideMethodsTestCase)  Time elapsed: 0.258 s
+testGenerateAfterCursorPosition(org.eclipse.jdt.ls.core.internal.codemanipulation.OverrideMethodsTestCase)  Time elapsed: 0.249 s
+testGenerateBeforeCursorPosition(org.eclipse.jdt.ls.core.internal.codemanipulation.OverrideMethodsTestCase)  Time elapsed: 0.284 s

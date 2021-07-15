@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.981 s - in org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandlerTest
+testMissingNatures(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandlerTest)  Time elapsed: 0.144 s
+testToDiagnosticsArray(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandlerTest)  Time elapsed: 0.041 s
+testBadLocationException(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandlerTest)  Time elapsed: 0.245 s
+testProjectLevelMarkers(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandlerTest)  Time elapsed: 0.02 s
+testMarkerListening(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandlerTest)  Time elapsed: 0.303 s
+testDeletePackage(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandlerTest)  Time elapsed: 0.167 s
+testMavenMarkers(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandlerTest)  Time elapsed: 0.04 s
+testMissingDependencies(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandlerTest)  Time elapsed: 1.426 s
+testProjectConfigurationIsNotUpToDate(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandlerTest)  Time elapsed: 0.029 s
+testAnnotation(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandlerTest)  Time elapsed: 0.367 s
+testTaskMarkers(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandlerTest)  Time elapsed: 0.199 s

@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsActionTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.44 s - in org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsActionTest
+testGenerateConstructorsEnabled_emptyFields(org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsActionTest)  Time elapsed: 0.282 s
+testGenerateConstructorsDisabled_interface(org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsActionTest)  Time elapsed: 0.246 s
+testGenerateConstructorsEnabled(org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsActionTest)  Time elapsed: 0.312 s
+testGenerateConstructorsQuickAssist(org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsActionTest)  Time elapsed: 0.294 s
+testGenerateConstructorsDisabled_anonymous(org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsActionTest)  Time elapsed: 0.305 s

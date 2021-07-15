@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.managers.WrapperValidatorTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 s - in org.eclipse.jdt.ls.core.internal.managers.WrapperValidatorTest
+testGradleWrapper(org.eclipse.jdt.ls.core.internal.managers.WrapperValidatorTest)  Time elapsed: 0.03 s
+testMissingSha256(org.eclipse.jdt.ls.core.internal.managers.WrapperValidatorTest)  Time elapsed: 0.048 s

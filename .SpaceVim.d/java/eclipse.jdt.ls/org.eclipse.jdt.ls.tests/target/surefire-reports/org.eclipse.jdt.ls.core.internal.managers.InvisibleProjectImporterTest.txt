@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.583 s - in org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest
+getPackageNameFromNearbyNonEmptyFile(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.187 s
+testSpecifyingNestedSourcePaths(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.153 s
+importCompleteFolder(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.182 s
+testPreviewFeaturesEnabledByDefault(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.2 s
+testSpecifyingAbsoluteOutputPath(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.065 s
+testSpecifyingOutputPath(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.168 s
+testSpecifyingAbsoluteSourcePath(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.079 s
+testSpecifyingOutputPathEqualToSourcePath(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.082 s
+testSpecifyingDuplicatedSourcePaths(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.176 s
+automaticJarDetectionLibUnderSource(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.187 s
+getPackageNameFromRelativePathOfEmptyFile(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.181 s
+testPreviewFeaturesDisabledForNotLatestJDK(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.171 s
+importPartialGradleFolder(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.079 s
+importPartialMavenFolder(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.069 s
+testSpecifyingOutputPathInsideSourcePath(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.176 s
+getPackageName(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.223 s
+testSpecifyingSourcePathsContainingOutputPath(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.17 s
+testSpecifyingEmptyOutputPath(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.154 s
+testSpecifyingRootAsSourcePaths(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.141 s
+testProjectSettings(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.143 s
+testSpecifyingEmptySourcePaths(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.13 s
+testSpecifyingSourcePaths(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.161 s
+importCompleteFolderWithoutTriggerFile(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.079 s
+importIncompleteFolder(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.079 s
+getPackageNameInSrcEmptyFile(org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporterTest)  Time elapsed: 0.147 s

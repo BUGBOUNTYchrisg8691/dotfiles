@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.BundleUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.763 s - in org.eclipse.jdt.ls.core.internal.BundleUtilsTest
+testLoad(org.eclipse.jdt.ls.core.internal.BundleUtilsTest)  Time elapsed: 0.156 s
+testLoadAndUpdate(org.eclipse.jdt.ls.core.internal.BundleUtilsTest)  Time elapsed: 0.163 s
+testLoadMultipleNonSingletonBundles(org.eclipse.jdt.ls.core.internal.BundleUtilsTest)  Time elapsed: 0.038 s
+testLoadSameSingletonBundleFromDifferentLocation(org.eclipse.jdt.ls.core.internal.BundleUtilsTest)  Time elapsed: 0.07 s
+testLoadSameBundleWithDifferentVersionMultipleTimes(org.eclipse.jdt.ls.core.internal.BundleUtilsTest)  Time elapsed: 0.043 s
+testLoadMultipleExtensionsRequiringSameBundleButDifferentUrl(org.eclipse.jdt.ls.core.internal.BundleUtilsTest)  Time elapsed: 0.073 s
+testLoadWithoutLoadClass(org.eclipse.jdt.ls.core.internal.BundleUtilsTest)  Time elapsed: 0.039 s
+testLoadWithWhitespace(org.eclipse.jdt.ls.core.internal.BundleUtilsTest)  Time elapsed: 0.039 s
+testLoadSameBundleMultipleTimes(org.eclipse.jdt.ls.core.internal.BundleUtilsTest)  Time elapsed: 0.039 s
+testLoadThrowCoreException(org.eclipse.jdt.ls.core.internal.BundleUtilsTest)  Time elapsed: 0.029 s
+testUpdateExtensionsDependingOnTheSameBundle(org.eclipse.jdt.ls.core.internal.BundleUtilsTest)  Time elapsed: 0.073 s

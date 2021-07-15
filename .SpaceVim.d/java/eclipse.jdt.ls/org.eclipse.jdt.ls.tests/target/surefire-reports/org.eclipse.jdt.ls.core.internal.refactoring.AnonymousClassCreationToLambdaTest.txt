@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassCreationToLambdaTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.859 s - in org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassCreationToLambdaTest
+testConvertToLambda1(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassCreationToLambdaTest)  Time elapsed: 0.164 s
+testConvertToLambda2(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassCreationToLambdaTest)  Time elapsed: 0.183 s
+testConvertToLambda3(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassCreationToLambdaTest)  Time elapsed: 0.167 s
+testConvertToLambda4(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassCreationToLambdaTest)  Time elapsed: 0.127 s
+testConvertToLambda6(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassCreationToLambdaTest)  Time elapsed: 0.204 s
+testConvertToLambda7(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassCreationToLambdaTest)  Time elapsed: 0.149 s
+testConvertToLambda8(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassCreationToLambdaTest)  Time elapsed: 0.144 s
+testConvertToLambda9(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassCreationToLambdaTest)  Time elapsed: 0.143 s
+testConvertToLambda10(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassCreationToLambdaTest)  Time elapsed: 0.163 s
+testConvertToLambda11(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassCreationToLambdaTest)  Time elapsed: 0.175 s
+testConvertToLambda12(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassCreationToLambdaTest)  Time elapsed: 0.24 s

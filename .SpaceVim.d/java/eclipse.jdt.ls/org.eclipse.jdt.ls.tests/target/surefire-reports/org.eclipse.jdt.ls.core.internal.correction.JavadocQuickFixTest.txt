@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.399 s - in org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest
+testMissingFieldComment(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.205 s
+testInsertAllMissing1(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.704 s
+testInsertAllMissing2(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.757 s
+testInsertAllMissing3(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.149 s
+testInsertAllMissing4(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.553 s
+testMissingConstructorComment(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.136 s
+testInvalidQualification1(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.153 s
+testInvalidQualification2(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.126 s
+testInvalidQualification3(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.153 s
+testRemoveParamTag1(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.648 s
+testRemoveParamTag2(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.692 s
+testRemoveThrowsTag1(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.692 s
+testRemoveThrowsTag2(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.722 s
+testRemoveThrowsTag3(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.684 s
+testMissingMethodComment1(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.695 s
+testMissingMethodComment2(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.664 s
+testMissingMethodComment3(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.66 s
+testMissingMethodComment4(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.699 s
+testMissingParam1(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.763 s
+testMissingParam2(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.732 s
+testMissingParam3(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.718 s
+testMissingParam4(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.677 s
+testMissingParam5(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.127 s
+testMissingParam6(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.134 s
+testMissingTypeComment(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.129 s
+testMissingThrows(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.295 s
+testRemoveReturnTag1(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.684 s
+testRemoveUnknownTag1(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.703 s
+testMissingReturn1(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.684 s
+testMissingReturn2(org.eclipse.jdt.ls.core.internal.correction.JavadocQuickFixTest)  Time elapsed: 0.66 s

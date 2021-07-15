@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.076 s - in org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsHandlerTest
+testCheckConstructorStatus_enum(org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsHandlerTest)  Time elapsed: 0.172 s
+testCheckConstructorStatus(org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsHandlerTest)  Time elapsed: 0.143 s
+testGenerateConstructorsBeforeCursorPosition(org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsHandlerTest)  Time elapsed: 0.192 s
+testGenerateConstructors(org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsHandlerTest)  Time elapsed: 0.189 s
+testGenerateConstructors_enum(org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsHandlerTest)  Time elapsed: 0.147 s
+testGenerateConstructorsAfterCursorPosition(org.eclipse.jdt.ls.core.internal.handlers.GenerateConstructorsHandlerTest)  Time elapsed: 0.233 s

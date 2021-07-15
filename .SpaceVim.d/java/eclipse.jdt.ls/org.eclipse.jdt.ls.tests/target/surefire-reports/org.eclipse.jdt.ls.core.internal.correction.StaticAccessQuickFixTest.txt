@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.StaticAccessQuickFixTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.479 s - in org.eclipse.jdt.ls.core.internal.correction.StaticAccessQuickFixTest
+testIndirectAccessToStaticField(org.eclipse.jdt.ls.core.internal.correction.StaticAccessQuickFixTest)  Time elapsed: 0.108 s
+testNonStaticOrAlienTypeReceiver(org.eclipse.jdt.ls.core.internal.correction.StaticAccessQuickFixTest)  Time elapsed: 0.163 s
+testNonStaticAccessToStaticField(org.eclipse.jdt.ls.core.internal.correction.StaticAccessQuickFixTest)  Time elapsed: 0.519 s
+testNonStaticAccessToStaticMethod(org.eclipse.jdt.ls.core.internal.correction.StaticAccessQuickFixTest)  Time elapsed: 0.689 s

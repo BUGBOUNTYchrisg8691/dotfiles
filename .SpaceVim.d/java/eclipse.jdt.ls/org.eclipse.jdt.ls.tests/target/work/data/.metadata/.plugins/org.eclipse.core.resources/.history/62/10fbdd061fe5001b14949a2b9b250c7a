@@ -1,0 +1,7 @@
+package p;
+
+public class A {
+
+	final String field1 = null;
+}
+

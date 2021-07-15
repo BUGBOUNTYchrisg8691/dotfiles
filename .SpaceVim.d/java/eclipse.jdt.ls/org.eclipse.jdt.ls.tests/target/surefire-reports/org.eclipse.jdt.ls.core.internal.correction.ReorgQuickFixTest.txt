@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.99 s - in org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest
+testUnusedImportsInDefaultPackage(org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest)  Time elapsed: 0.164 s
+testWrongTypeName_bug180330(org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest)  Time elapsed: 0.129 s
+testCollidingImports(org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest)  Time elapsed: 0.125 s
+testWrongTypeName(org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest)  Time elapsed: 0.131 s
+testWrongPackageStatement(org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest)  Time elapsed: 0.13 s
+testWrongPackageStatementFromDefault(org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest)  Time elapsed: 0.128 s
+testWrongTypeNameInEnum(org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest)  Time elapsed: 0.163 s
+testWrongTypeNameWithConstructor(org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest)  Time elapsed: 0.15 s
+testWrongTypeNameInAnnot(org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest)  Time elapsed: 0.123 s
+testWrongDefaultPackageStatement(org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest)  Time elapsed: 0.15 s
+testWrongPackageStatementInEnum(org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest)  Time elapsed: 0.141 s
+testUnusedImportOnDemand(org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest)  Time elapsed: 0.152 s
+testWrongTypeNameButColliding(org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest)  Time elapsed: 0.13 s
+testUnusedImports(org.eclipse.jdt.ls.core.internal.correction.ReorgQuickFixTest)  Time elapsed: 0.174 s

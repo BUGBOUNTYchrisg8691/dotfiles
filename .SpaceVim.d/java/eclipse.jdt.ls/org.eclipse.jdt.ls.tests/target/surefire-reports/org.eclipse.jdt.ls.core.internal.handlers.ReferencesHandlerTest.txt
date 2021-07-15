@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.ReferencesHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.128 s - in org.eclipse.jdt.ls.core.internal.handlers.ReferencesHandlerTest
+testEnumInClassFile(org.eclipse.jdt.ls.core.internal.handlers.ReferencesHandlerTest)  Time elapsed: 0.865 s
+testEmpty(org.eclipse.jdt.ls.core.internal.handlers.ReferencesHandlerTest)  Time elapsed: 0.186 s
+testIncludeAccessors(org.eclipse.jdt.ls.core.internal.handlers.ReferencesHandlerTest)  Time elapsed: 0.373 s
+testReference(org.eclipse.jdt.ls.core.internal.handlers.ReferencesHandlerTest)  Time elapsed: 0.704 s

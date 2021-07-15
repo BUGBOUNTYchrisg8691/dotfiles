@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.NonProjectFixTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.242 s - in org.eclipse.jdt.ls.core.internal.correction.NonProjectFixTest
+testReportSyntaxErrorsFixForNonProjectFile(org.eclipse.jdt.ls.core.internal.correction.NonProjectFixTest)  Time elapsed: 0.119 s
+testReportAllErrorsFixForNonProjectFile(org.eclipse.jdt.ls.core.internal.correction.NonProjectFixTest)  Time elapsed: 0.122 s

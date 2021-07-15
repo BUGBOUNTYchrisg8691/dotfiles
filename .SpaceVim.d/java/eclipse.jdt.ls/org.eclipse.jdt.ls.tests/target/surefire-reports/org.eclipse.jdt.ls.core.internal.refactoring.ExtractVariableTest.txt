@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.refactoring.ExtractVariableTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.958 s - in org.eclipse.jdt.ls.core.internal.refactoring.ExtractVariableTest
+testExtractVariable(org.eclipse.jdt.ls.core.internal.refactoring.ExtractVariableTest)  Time elapsed: 0.688 s
+testExtractVariableLongName(org.eclipse.jdt.ls.core.internal.refactoring.ExtractVariableTest)  Time elapsed: 0.726 s
+testExtractVariable1(org.eclipse.jdt.ls.core.internal.refactoring.ExtractVariableTest)  Time elapsed: 0.703 s
+testExtractVariable2(org.eclipse.jdt.ls.core.internal.refactoring.ExtractVariableTest)  Time elapsed: 0.732 s
+testExtractVariableFailed(org.eclipse.jdt.ls.core.internal.refactoring.ExtractVariableTest)  Time elapsed: 0.108 s

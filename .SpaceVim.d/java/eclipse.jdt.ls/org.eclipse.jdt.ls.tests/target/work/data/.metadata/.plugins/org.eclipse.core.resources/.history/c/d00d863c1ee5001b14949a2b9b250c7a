@@ -1,0 +1,7 @@
+package p;
+
+public class C {
+	private int id;
+	private int B[] array;
+	private B b;
+}

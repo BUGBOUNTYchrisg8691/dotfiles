@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.preferences.PreferenceManagerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.eclipse.jdt.ls.core.internal.preferences.PreferenceManagerTest
+testUpdateMavenGlobalSettings(org.eclipse.jdt.ls.core.internal.preferences.PreferenceManagerTest)  Time elapsed: 0.012 s
+testInsertSpacesTabSize(org.eclipse.jdt.ls.core.internal.preferences.PreferenceManagerTest)  Time elapsed: 0.005 s
+testPreferencesChangeListener(org.eclipse.jdt.ls.core.internal.preferences.PreferenceManagerTest)  Time elapsed: 0.008 s
+testInitialize(org.eclipse.jdt.ls.core.internal.preferences.PreferenceManagerTest)  Time elapsed: 0.004 s
+testUpdateTypeCommentTemplate(org.eclipse.jdt.ls.core.internal.preferences.PreferenceManagerTest)  Time elapsed: 0.006 s
+testUpdateMavenSettings(org.eclipse.jdt.ls.core.internal.preferences.PreferenceManagerTest)  Time elapsed: 0.004 s
+testUpdateFileHeaderTemplate(org.eclipse.jdt.ls.core.internal.preferences.PreferenceManagerTest)  Time elapsed: 0.005 s

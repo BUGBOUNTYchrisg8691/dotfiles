@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest
+-------------------------------------------------------------------------------
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.361 s - in org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest
+testInvisibleMethodRequestedInOtherPackage(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.15 s
+testInvalidMemberEnumModifier(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.152 s
+testAddSealedMissingClassModifierProposal(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.258 s
+testInvalidStaticModifierForField(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.113 s
+testInvalidVariableModifiers(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.17 s
+testInvisibleMethodRequestedInOtherType(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.136 s
+testInvisibleFieldRequestedInSamePackage1(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.251 s
+testInvisibleFieldRequestedInSamePackage2(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.655 s
+testInvalidClassFieldModifiers(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.15 s
+testInvisibleTypeRequestedInGenericType(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.185 s
+testInvisibleConstructorRequestedInOtherType(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.169 s
+testNonBlankFinalLocalAssignment(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.143 s
+testInvalidInterfaceMethodModifiers(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.125 s
+testInvisibleConstructorRequestedInInSuperType(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.205 s
+testInvalidEnumConstructorModifier(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.137 s
+testFinalFieldAssignment(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.158 s
+testInvalidLocalClassModifiers(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.143 s
+testInvalidArgumentModifier(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.123 s
+testClassExtendFinalClass(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.529 s
+testInvalidClassModifiers(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.143 s
+testInvalidInterfaceModifiers(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.123 s
+testInvisibleTypeRequestedFromSuperClass(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.166 s
+testDuplicateBlankFinalFieldInitialization(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.135 s
+testInvalidMemberClassModifiers(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.202 s
+testInvalidMemberInterfaceModifiers(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.144 s
+testInvalidEnumModifier2(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.136 s
+testInvalidModifierCombinationFinalVolatileForField(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.12 s
+testInvalidClassMethodModifiers(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.143 s
+testInvalidInterfaceFieldModifiers(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.115 s
+testInvisibleTypeRequestedInOtherPackage(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.147 s
+testAnonymousClassCannotExtendFinalClass(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.841 s
+testDuplicateFinalLocalInitialization(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.168 s
+testOverrideStaticMethod(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.147 s
+testOverrideFinalMethod(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.158 s
+testInvalidConstructorModifiers(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.129 s
+testInvalidStaticModifierForMethod(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.11 s
+testInvalidEnumModifier(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.131 s
+testInvalidParamModifiers(org.eclipse.jdt.ls.core.internal.correction.ModifierCorrectionsQuickFixTest)  Time elapsed: 0.148 s

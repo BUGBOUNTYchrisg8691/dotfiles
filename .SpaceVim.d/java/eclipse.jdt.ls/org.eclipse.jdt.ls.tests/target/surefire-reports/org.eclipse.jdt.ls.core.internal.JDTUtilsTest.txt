@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.JDTUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.eclipse.jdt.ls.core.internal.JDTUtilsTest
+testNonJavaCompilationUnit(org.eclipse.jdt.ls.core.internal.JDTUtilsTest)  Time elapsed: 0.001 s
+testResolveStandaloneCompilationUnitWithinJob(org.eclipse.jdt.ls.core.internal.JDTUtilsTest)  Time elapsed: 0.01 s
+testGetPackageNameSrc(org.eclipse.jdt.ls.core.internal.JDTUtilsTest)  Time elapsed: 0.004 s
+testGetPackageNameURI(org.eclipse.jdt.ls.core.internal.JDTUtilsTest)  Time elapsed: 0.001 s
+testFakeCompilationUnit(org.eclipse.jdt.ls.core.internal.JDTUtilsTest)  Time elapsed: 0.005 s
+testGetPackageNameNoSrc(org.eclipse.jdt.ls.core.internal.JDTUtilsTest)  Time elapsed: 0.001 s
+testIgnoredUnknownSchemes(org.eclipse.jdt.ls.core.internal.JDTUtilsTest)  Time elapsed: 0 s
+testIsFolder(org.eclipse.jdt.ls.core.internal.JDTUtilsTest)  Time elapsed: 0.004 s
+testResolveStandaloneCompilationUnit(org.eclipse.jdt.ls.core.internal.JDTUtilsTest)  Time elapsed: 0.004 s
+testGetFileOrFolder(org.eclipse.jdt.ls.core.internal.JDTUtilsTest)  Time elapsed: 0.003 s
+testUnresolvableCompilationUnits(org.eclipse.jdt.ls.core.internal.JDTUtilsTest)  Time elapsed: 0.001 s
+testGetPackageNameString(org.eclipse.jdt.ls.core.internal.JDTUtilsTest)  Time elapsed: 0.002 s

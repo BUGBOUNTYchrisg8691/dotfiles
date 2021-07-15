@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.56 s - in org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest
+testNoLinkWhenClassContentUnsupported(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.506 s
+testHoverOverNullElement(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.894 s
+testEmptyHover(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.178 s
+testHoverWhenLinkDoesNotExist(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.559 s
+testHoverMethod(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.264 s
+testHover(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.305 s
+testHoverStandalone(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.656 s
+testHoverInheritedJavadoc(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.179 s
+testHoverOnPackageWithJavadoc(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.583 s
+testHoverOnJavadocWithLinkToMethodInOtherClass(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.486 s
+testLinkWhenClassContentSupported(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.475 s
+testHoverTypeParameters(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.188 s
+testHoverThrowable(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.814 s
+testHoverUnresolvedType(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.673 s
+testMissingUnit(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.184 s
+testHoverOnJava10var(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.654 s
+testHoverOnJava11var(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.828 s
+testInvalidJavadoc(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 4.487 s
+testHoverOnJavadocWithMultipleDifferentTypesOfTags(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.539 s
+testHoverWithAttachedJavadoc(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 7.259 s
+testHoverOnPackageWithNewJavadoc(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.274 s
+testHoverVariable(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.205 s
+testHoverJavadocWithExtraTags(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.777 s
+testHoverOnJavadocWithLinkToMethodInClass(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.599 s
+testHoverPackage(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.386 s
+testHoverOnJavadocWithValueTag(org.eclipse.jdt.ls.core.internal.handlers.HoverHandlerTest)  Time elapsed: 0.607 s

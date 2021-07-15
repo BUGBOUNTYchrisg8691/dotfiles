@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.SaveActionHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.032 s - in org.eclipse.jdt.ls.core.internal.handlers.SaveActionHandlerTest
+testMissingFormatterUrl(org.eclipse.jdt.ls.core.internal.handlers.SaveActionHandlerTest)  Time elapsed: 0.198 s
+testStaticWillSaveWaitUntil(org.eclipse.jdt.ls.core.internal.handlers.SaveActionHandlerTest)  Time elapsed: 0.634 s
+testWillSaveWaitUntil(org.eclipse.jdt.ls.core.internal.handlers.SaveActionHandlerTest)  Time elapsed: 0.2 s

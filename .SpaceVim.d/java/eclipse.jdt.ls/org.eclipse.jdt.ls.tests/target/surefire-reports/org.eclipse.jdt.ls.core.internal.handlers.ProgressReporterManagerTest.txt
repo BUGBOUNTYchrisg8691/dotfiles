@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManagerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.437 s - in org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManagerTest
+testMulticastJobReporting(org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManagerTest)  Time elapsed: 0.008 s
+testJobReporting(org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManagerTest)  Time elapsed: 0.009 s
+testStartupJobReporting(org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManagerTest)  Time elapsed: 0.007 s
+testReportThrottling(org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManagerTest)  Time elapsed: 0.413 s

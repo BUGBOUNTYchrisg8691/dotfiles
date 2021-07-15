@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.AssignToFieldQuickAssistTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.135 s - in org.eclipse.jdt.ls.core.internal.correction.AssignToFieldQuickAssistTest
+testAssignParamToField2(org.eclipse.jdt.ls.core.internal.correction.AssignToFieldQuickAssistTest)  Time elapsed: 0.302 s
+testAssignParamToField3(org.eclipse.jdt.ls.core.internal.correction.AssignToFieldQuickAssistTest)  Time elapsed: 0.196 s
+testAssignParamToField4(org.eclipse.jdt.ls.core.internal.correction.AssignToFieldQuickAssistTest)  Time elapsed: 0.749 s
+testAssignParamToField5(org.eclipse.jdt.ls.core.internal.correction.AssignToFieldQuickAssistTest)  Time elapsed: 0.73 s
+testAssignParamToField(org.eclipse.jdt.ls.core.internal.correction.AssignToFieldQuickAssistTest)  Time elapsed: 0.158 s

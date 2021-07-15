@@ -1,8 +1,12 @@
 ## locally install package path for user
 export PATH="$HOME/.local/bin:$PATH"
 
+## auth
+source $HOME/.gh_spacevim_auth.sh
+
 ## go
-export GOBIN="$HOME/go/bin"
+export GOPATH="$HOME/go"
+export GOBIN="$GOPATH/bin"
 export PATH="$GOBIN:$PATH"
 
 ## SpaceVim
@@ -43,6 +47,9 @@ export EDITOR="nvim"
 
 ## rust/cargo
 source "$HOME/.cargo/env"
+
+## java
+export JAVA_HOME="/home/chrisg/.sdkman/candidates/java/current"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/chrisg/.sdkman"

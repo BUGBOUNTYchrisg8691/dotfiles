@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 71.724 s - in org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest
+testDisableImportGradle(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.125 s
+testJava13Project(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 4.306 s
+testBuildFile(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.619 s
+testJava11Project(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.357 s
+testSubprojects(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 13.564 s
+testGradleHome(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.022 s
+testGradleOfflineMode(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.021 s
+testJavaImportExclusions(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 8.488 s
+testJavaHome(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.154 s
+testJava14Project(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.501 s
+testGradleHomePreference(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.02 s
+testDeleteClasspath(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.666 s
+testGradlePropertiesFile(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.439 s
+testSettingsGradle(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 14.039 s
+testGradleArguments(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.021 s
+testJava12Project(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.652 s
+testGradleJavaHome(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.221 s
+testGradleUserHome(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 14.913 s
+testGradlePersistence(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.98 s
+testGradleJvmArguments(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.018 s
+testDisableGradleWrapper(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 9.533 s
+testWorkspaceSettings(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.018 s
+testDeleteInvalidProjects(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.596 s
+importNestedGradleProject(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.868 s
+importSimpleGradleProject(org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporterTest)  Time elapsed: 0.582 s

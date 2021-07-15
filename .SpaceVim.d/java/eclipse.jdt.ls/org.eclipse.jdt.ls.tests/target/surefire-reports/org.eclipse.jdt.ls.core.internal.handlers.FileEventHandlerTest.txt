@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.FileEventHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.76 s - in org.eclipse.jdt.ls.core.internal.handlers.FileEventHandlerTest
+testRenamePackage(org.eclipse.jdt.ls.core.internal.handlers.FileEventHandlerTest)  Time elapsed: 0.649 s
+testMoveMultiFiles_differentDestination(org.eclipse.jdt.ls.core.internal.handlers.FileEventHandlerTest)  Time elapsed: 0.088 s
+testRenameFiles(org.eclipse.jdt.ls.core.internal.handlers.FileEventHandlerTest)  Time elapsed: 1.188 s
+testRenamePackage2(org.eclipse.jdt.ls.core.internal.handlers.FileEventHandlerTest)  Time elapsed: 0.679 s
+testRenameFiles_refactoringExists(org.eclipse.jdt.ls.core.internal.handlers.FileEventHandlerTest)  Time elapsed: 0.096 s
+testRenameSubPackage(org.eclipse.jdt.ls.core.internal.handlers.FileEventHandlerTest)  Time elapsed: 0.62 s
+testMoveNonClasspathFile(org.eclipse.jdt.ls.core.internal.handlers.FileEventHandlerTest)  Time elapsed: 0.721 s
+testMoveMultiFiles(org.eclipse.jdt.ls.core.internal.handlers.FileEventHandlerTest)  Time elapsed: 0.718 s

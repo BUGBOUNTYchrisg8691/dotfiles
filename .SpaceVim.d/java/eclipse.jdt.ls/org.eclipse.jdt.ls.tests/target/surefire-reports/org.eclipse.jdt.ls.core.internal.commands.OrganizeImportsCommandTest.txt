@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.commands.OrganizeImportsCommandTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.196 s - in org.eclipse.jdt.ls.core.internal.commands.OrganizeImportsCommandTest
+testOrganizeImportsFilterTypes(org.eclipse.jdt.ls.core.internal.commands.OrganizeImportsCommandTest)  Time elapsed: 0.568 s
+testGenericOrganizeImportsCall_InvalidFile(org.eclipse.jdt.ls.core.internal.commands.OrganizeImportsCommandTest)  Time elapsed: 0.231 s
+testOrganizeImportsUnused(org.eclipse.jdt.ls.core.internal.commands.OrganizeImportsCommandTest)  Time elapsed: 0.131 s
+testOrganizeImportsAutomaticallyResolve(org.eclipse.jdt.ls.core.internal.commands.OrganizeImportsCommandTest)  Time elapsed: 0.293 s
+testOrganizeImportsSort(org.eclipse.jdt.ls.core.internal.commands.OrganizeImportsCommandTest)  Time elapsed: 0.165 s
+testGenericOrganizeImportsCall_null(org.eclipse.jdt.ls.core.internal.commands.OrganizeImportsCommandTest)  Time elapsed: 0.224 s
+testOrganizeImportsInPackage(org.eclipse.jdt.ls.core.internal.commands.OrganizeImportsCommandTest)  Time elapsed: 0.156 s
+testOrganizeImportsOnDemandThreshold(org.eclipse.jdt.ls.core.internal.commands.OrganizeImportsCommandTest)  Time elapsed: 0.637 s
+testOrganizeImportsInProject(org.eclipse.jdt.ls.core.internal.commands.OrganizeImportsCommandTest)  Time elapsed: 0.16 s
+testGenericOrganizeImportsCall(org.eclipse.jdt.ls.core.internal.commands.OrganizeImportsCommandTest)  Time elapsed: 0.257 s
+testOrganizeImportsModuleInfo(org.eclipse.jdt.ls.core.internal.commands.OrganizeImportsCommandTest)  Time elapsed: 0.235 s
+testOrganizeImportsStaticOnDemandThreshold(org.eclipse.jdt.ls.core.internal.commands.OrganizeImportsCommandTest)  Time elapsed: 0.138 s

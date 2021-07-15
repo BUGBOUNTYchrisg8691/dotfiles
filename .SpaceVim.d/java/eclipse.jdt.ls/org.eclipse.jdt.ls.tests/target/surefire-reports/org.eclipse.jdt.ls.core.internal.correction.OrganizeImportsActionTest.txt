@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.OrganizeImportsActionTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.625 s - in org.eclipse.jdt.ls.core.internal.correction.OrganizeImportsActionTest
+testOrganizeImportsUnused(org.eclipse.jdt.ls.core.internal.correction.OrganizeImportsActionTest)  Time elapsed: 0.126 s
+testOrganizeImportsAutomaticallyResolve(org.eclipse.jdt.ls.core.internal.correction.OrganizeImportsActionTest)  Time elapsed: 0.464 s
+testOrganizeImportsSort(org.eclipse.jdt.ls.core.internal.correction.OrganizeImportsActionTest)  Time elapsed: 0.132 s
+testOrganizeImportsOnDemandThreshold(org.eclipse.jdt.ls.core.internal.correction.OrganizeImportsActionTest)  Time elapsed: 0.553 s
+testOrganizeImportsModuleInfo(org.eclipse.jdt.ls.core.internal.correction.OrganizeImportsActionTest)  Time elapsed: 0.203 s
+testOrganizeImportsStaticOnDemandThreshold(org.eclipse.jdt.ls.core.internal.correction.OrganizeImportsActionTest)  Time elapsed: 0.147 s

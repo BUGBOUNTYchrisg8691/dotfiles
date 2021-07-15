@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.588 s - in org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest
+testSignatureHelp_constructorParameters(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.783 s
+testSignatureHelp_parameters(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.319 s
+testSignatureHelp_stringLiteral(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.324 s
+testSignatureHelp_parameterObject(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.641 s
+testSignatureHelp_singleMethod(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.198 s
+testSignatureHelp_varargs(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.433 s
+testSignatureHelp_varargs2(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.346 s
+testSignatureHelp_multipeMethod(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.34 s
+testSignatureHelp_binary(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.253 s
+testSignatureHelp_lambda(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.18 s
+testSignatureHelp_activeSignature(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.218 s
+testSignatureHelp_javadocOriginal(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.287 s
+testSignatureHelp_assertEquals(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 3.156 s
+testSignatureHelp_constructorParameters2(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.28 s
+testSignatureHelp_constructorParameters3(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.627 s
+testSignatureHelp_invalid(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.215 s
+testSignatureHelp_constructor(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.37 s
+testSignatureHelp_javadoc(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.355 s
+testSignatureHelp_parameterTypes(org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandlerTest)  Time elapsed: 0.262 s

@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.ConvertMethodReferenceToLambaTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.693 s - in org.eclipse.jdt.ls.core.internal.correction.ConvertMethodReferenceToLambaTest
+testMethodReferenceToLambda(org.eclipse.jdt.ls.core.internal.correction.ConvertMethodReferenceToLambaTest)  Time elapsed: 0.488 s
+testLambdaToMethodReference(org.eclipse.jdt.ls.core.internal.correction.ConvertMethodReferenceToLambaTest)  Time elapsed: 0.205 s

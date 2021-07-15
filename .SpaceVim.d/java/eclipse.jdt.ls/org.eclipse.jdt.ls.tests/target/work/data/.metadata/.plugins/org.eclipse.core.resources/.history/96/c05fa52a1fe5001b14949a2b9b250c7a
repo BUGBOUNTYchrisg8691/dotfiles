@@ -1,0 +1,5 @@
+package p;
+
+public class Test1 extends A implements B {
+}
+

@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.managers.MavenClasspathTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.73 s - in org.eclipse.jdt.ls.core.internal.managers.MavenClasspathTest
+testMain(org.eclipse.jdt.ls.core.internal.managers.MavenClasspathTest)  Time elapsed: 0.333 s
+testTest(org.eclipse.jdt.ls.core.internal.managers.MavenClasspathTest)  Time elapsed: 0.397 s

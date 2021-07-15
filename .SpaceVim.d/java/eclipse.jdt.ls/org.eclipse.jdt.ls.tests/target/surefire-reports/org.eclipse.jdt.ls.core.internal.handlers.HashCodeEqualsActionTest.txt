@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsActionTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.093 s - in org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsActionTest
+testHashCodeEqualsDisabled_interface(org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsActionTest)  Time elapsed: 0.263 s
+testHashCodeEqualsEnabled(org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsActionTest)  Time elapsed: 0.274 s
+testHashCodeEqualsDisabled_emptyFields(org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsActionTest)  Time elapsed: 0.283 s
+testHashCodeEqualsDisabled_enum(org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsActionTest)  Time elapsed: 0.273 s

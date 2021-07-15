@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.javadoc.JavaDocImageExtractionTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.886 s - in org.eclipse.jdt.ls.core.internal.javadoc.JavaDocImageExtractionTest
+testHyperlinkImage(org.eclipse.jdt.ls.core.internal.javadoc.JavaDocImageExtractionTest)  Time elapsed: 0.828 s
+testImageExtractionWithoutAnyJars(org.eclipse.jdt.ls.core.internal.javadoc.JavaDocImageExtractionTest)  Time elapsed: 0.434 s
+testIsAbsolutePath(org.eclipse.jdt.ls.core.internal.javadoc.JavaDocImageExtractionTest)  Time elapsed: 0.019 s
+testImageExtractionWithSourceJar(org.eclipse.jdt.ls.core.internal.javadoc.JavaDocImageExtractionTest)  Time elapsed: 1.752 s
+testImageRelativeToFile(org.eclipse.jdt.ls.core.internal.javadoc.JavaDocImageExtractionTest)  Time elapsed: 2.236 s
+testImageExtractionWithJavadocJar(org.eclipse.jdt.ls.core.internal.javadoc.JavaDocImageExtractionTest)  Time elapsed: 0.617 s

@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.contentassist.SnippetUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in org.eclipse.jdt.ls.core.internal.contentassist.SnippetUtilsTest
+testWhenMarkDownNotSupported(org.eclipse.jdt.ls.core.internal.contentassist.SnippetUtilsTest)  Time elapsed: 0.008 s
+testMultipleVariablesInput(org.eclipse.jdt.ls.core.internal.contentassist.SnippetUtilsTest)  Time elapsed: 0.006 s
+testSelectedTextPlaceholder(org.eclipse.jdt.ls.core.internal.contentassist.SnippetUtilsTest)  Time elapsed: 0.005 s
+testComplicatedInput(org.eclipse.jdt.ls.core.internal.contentassist.SnippetUtilsTest)  Time elapsed: 0.005 s
+testWhenMarkDownSupported(org.eclipse.jdt.ls.core.internal.contentassist.SnippetUtilsTest)  Time elapsed: 0.009 s

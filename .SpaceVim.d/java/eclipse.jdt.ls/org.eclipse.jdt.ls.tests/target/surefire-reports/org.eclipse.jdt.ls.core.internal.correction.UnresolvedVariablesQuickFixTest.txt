@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest
+-------------------------------------------------------------------------------
+Tests run: 47, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 10.19 s - in org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest
+testVarAssingmentInIfBody(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.181 s
+testVarInAssignmentWithGenerics(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.185 s
+testVarOfShadowedType(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.18 s
+testVarMultipleOccurances1(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.203 s
+testVarMultipleOccurances2(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.187 s
+testVarMultipleOccurances3(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.206 s
+testVarInVarArgs1(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.204 s
+testVarInVarArgs2(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.636 s
+testLongVarRef(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.163 s
+testVarInArray(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.145 s
+testSimilarVariableNames1(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.202 s
+testSimilarVariableNames2(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.178 s
+testVarInSuper(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.172 s
+testVarWithMethodName1(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.165 s
+testVarWithMethodName2(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.19 s
+testVarInSuperFieldAccess(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.201 s
+testVarInMethodInvocation(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.231 s
+testVarInAnnotation1(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.235 s
+testVarInAnnotation2(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.239 s
+testVarInAnnotation3(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.17 s
+testVarInClassInstanceCreation(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.245 s
+testVarInSuperConstructurInvocation(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.215 s
+testVarParameterAccess(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest) skipped
+testVarAssingmentInThenBodyWithGenerics(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.215 s
+testVarInForInitializer(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.216 s
+testVarInAnonymous(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.176 s
+testVarInAssignment(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.177 s
+testVarInOtherType(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.181 s
+testVarAssingmentInIfBodyWithGenerics(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.206 s
+testVarAndTypeRef(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.757 s
+testVarInArrayAccess(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.195 s
+testVarAssingmentInThenBody(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.2 s
+testSimilarVarsAndVisibility(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.16 s
+testVarInConstructurInvocation(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.201 s
+testSimilarVariableNamesMultipleOcc(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.212 s
+testVarWithGenericType(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.165 s
+testBug300(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.187 s
+testVarAssignedToWildcard1(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.232 s
+testVarAssignedToWildcard2(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.222 s
+testVarAssignedToWildcard3(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.238 s
+testVarInInitializer(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.191 s
+testVarAssignedByWildcard1(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.199 s
+testVarAssignedByWildcard2(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.209 s
+testVarAssignedByWildcard3(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.262 s
+testVarInForInitializer2(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.203 s
+testVarInEnumSwitch(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.193 s
+testStaticImportFavorite1(org.eclipse.jdt.ls.core.internal.correction.UnresolvedVariablesQuickFixTest)  Time elapsed: 0.256 s

@@ -1,0 +1,7 @@
+package p;
+
+public class B {
+	private static String staticField = "23434343";
+	private final String finalField;
+	String name;
+}

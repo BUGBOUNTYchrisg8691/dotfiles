@@ -1,0 +1,5 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.javafx.JavaFXTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.029 s - in org.eclipse.jdt.ls.core.internal.javafx.JavaFXTest
+testJavaFX(org.eclipse.jdt.ls.core.internal.javafx.JavaFXTest) skipped

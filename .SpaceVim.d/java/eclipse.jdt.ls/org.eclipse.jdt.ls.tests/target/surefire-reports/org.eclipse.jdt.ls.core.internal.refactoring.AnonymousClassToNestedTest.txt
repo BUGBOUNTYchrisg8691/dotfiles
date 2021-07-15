@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassToNestedTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.423 s - in org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassToNestedTest
+testConvertToNestedCursor1(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassToNestedTest)  Time elapsed: 0.335 s
+testConvertToNestedCursor2(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassToNestedTest)  Time elapsed: 0.228 s
+testConvertToNestedCursor3(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassToNestedTest)  Time elapsed: 0.145 s
+testConvertToNestedWithStaticModifier(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassToNestedTest)  Time elapsed: 0.169 s
+testConvertToNestedWithExtends(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassToNestedTest)  Time elapsed: 0.148 s
+testConvertToNestedWithInterface(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassToNestedTest)  Time elapsed: 0.194 s
+testConvertToNestedWithConstructor(org.eclipse.jdt.ls.core.internal.refactoring.AnonymousClassToNestedTest)  Time elapsed: 0.203 s

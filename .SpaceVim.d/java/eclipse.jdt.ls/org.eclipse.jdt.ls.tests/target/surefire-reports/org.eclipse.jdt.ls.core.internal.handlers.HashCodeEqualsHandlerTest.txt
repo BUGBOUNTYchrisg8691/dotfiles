@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.606 s - in org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsHandlerTest
+testGenerateHashCodeEquals(org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsHandlerTest)  Time elapsed: 0.211 s
+testGenerateHashCodeEquals_beforeCursor(org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsHandlerTest)  Time elapsed: 0.154 s
+testGenerateHashCodeEquals_useInstanceof(org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsHandlerTest)  Time elapsed: 0.148 s
+testCheckHashCodeEqualsStatus_methodsExist(org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsHandlerTest)  Time elapsed: 0.126 s
+testGenerateHashCodeEquals_useBlocks(org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsHandlerTest)  Time elapsed: 0.203 s
+testGenerateHashCodeEquals_useJava7Objects(org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsHandlerTest)  Time elapsed: 0.142 s
+testGenerateHashCodeEquals_afterCursor(org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsHandlerTest)  Time elapsed: 0.147 s
+testCheckHashCodeEqualsStatus(org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsHandlerTest)  Time elapsed: 0.174 s
+testGenerateHashCodeEquals_regenerate(org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsHandlerTest)  Time elapsed: 0.136 s
+testGenerateHashCodeEquals_generateComments(org.eclipse.jdt.ls.core.internal.handlers.HashCodeEqualsHandlerTest)  Time elapsed: 0.164 s

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.managers.BasicFileDetectorTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.eclipse.jdt.ls.core.internal.managers.BasicFileDetectorTest
+testScanBuildFileAtRootIncludingNestedDirs(org.eclipse.jdt.ls.core.internal.managers.BasicFileDetectorTest)  Time elapsed: 0.004 s
+testInclusions2(org.eclipse.jdt.ls.core.internal.managers.BasicFileDetectorTest)  Time elapsed: 0.001 s
+testInclusions3(org.eclipse.jdt.ls.core.internal.managers.BasicFileDetectorTest)  Time elapsed: 0.001 s
+testInclusions(org.eclipse.jdt.ls.core.internal.managers.BasicFileDetectorTest)  Time elapsed: 0.002 s
+testScanNestedBuildFilesDepth2(org.eclipse.jdt.ls.core.internal.managers.BasicFileDetectorTest)  Time elapsed: 0.001 s
+testScanExcludingNestedBuildFilesDepth3(org.eclipse.jdt.ls.core.internal.managers.BasicFileDetectorTest)  Time elapsed: 0.001 s
+testScanSymbolicLinks(org.eclipse.jdt.ls.core.internal.managers.BasicFileDetectorTest)  Time elapsed: 0.001 s
+testScanBuildFileAtRootExcludingNestedDirs(org.eclipse.jdt.ls.core.internal.managers.BasicFileDetectorTest)  Time elapsed: 0 s
+testScanCircularSymbolicLinks(org.eclipse.jdt.ls.core.internal.managers.BasicFileDetectorTest)  Time elapsed: 0.005 s

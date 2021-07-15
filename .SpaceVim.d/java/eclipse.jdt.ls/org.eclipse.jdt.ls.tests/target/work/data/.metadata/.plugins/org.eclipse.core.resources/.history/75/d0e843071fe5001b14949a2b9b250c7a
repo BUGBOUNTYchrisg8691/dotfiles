@@ -1,0 +1,11 @@
+package p;
+
+import q.Other;
+
+public class B {
+
+	private String a;
+	private String b;
+	protected Other c;
+	public String d;
+}

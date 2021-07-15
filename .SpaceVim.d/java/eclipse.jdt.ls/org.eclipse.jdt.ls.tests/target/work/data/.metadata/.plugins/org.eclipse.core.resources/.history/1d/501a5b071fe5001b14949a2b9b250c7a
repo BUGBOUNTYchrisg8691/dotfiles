@@ -1,0 +1,12 @@
+package p;
+
+public class B {
+
+	{
+		B someAnon = new B() {
+			
+			A innerfield;
+			
+		};
+	}
+}

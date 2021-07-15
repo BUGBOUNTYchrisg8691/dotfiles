@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.574 s - in org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest
+testExtractMethodBranch(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.676 s
+testExtractMethodException(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.669 s
+testExtractMethodReturn(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.65 s
+testExtractMethodParameter(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.676 s
+testExtractMethodLocal(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.66 s
+testExtractMethodGeneric(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.679 s
+testExtractMethodExpression(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.666 s
+testExtractMethodException1(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.653 s
+testExtractMethodVar(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.671 s
+testExtractMethodReference(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.711 s
+testExtractMethodAnonymousClass(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.152 s
+testExtractMethodFieldInitializer(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.124 s
+testExtractMethodLambdaExpression(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.146 s
+testExtractMethodGeneric1(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.773 s
+testExtractMethodEnum(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.123 s
+testExtractMethodDuplicate(org.eclipse.jdt.ls.core.internal.refactoring.ExtractMethodTest)  Time elapsed: 0.545 s

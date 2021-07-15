@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.MapFlattenerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.eclipse.jdt.ls.core.internal.handlers.MapFlattenerTest
+testGetValue(org.eclipse.jdt.ls.core.internal.handlers.MapFlattenerTest)  Time elapsed: 0 s
+testGetList(org.eclipse.jdt.ls.core.internal.handlers.MapFlattenerTest)  Time elapsed: 0.002 s
+testGetBoolean(org.eclipse.jdt.ls.core.internal.handlers.MapFlattenerTest)  Time elapsed: 0 s
+testGetInt(org.eclipse.jdt.ls.core.internal.handlers.MapFlattenerTest)  Time elapsed: 0 s
+testGetString(org.eclipse.jdt.ls.core.internal.handlers.MapFlattenerTest)  Time elapsed: 0 s

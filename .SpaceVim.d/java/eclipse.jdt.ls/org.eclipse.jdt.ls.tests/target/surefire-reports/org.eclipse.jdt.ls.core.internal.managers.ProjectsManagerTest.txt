@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.managers.ProjectsManagerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.832 s - in org.eclipse.jdt.ls.core.internal.managers.ProjectsManagerTest
+testCancelUpdateJob(org.eclipse.jdt.ls.core.internal.managers.ProjectsManagerTest)  Time elapsed: 0.061 s
+testCreateDefaultProject(org.eclipse.jdt.ls.core.internal.managers.ProjectsManagerTest)  Time elapsed: 0.078 s
+testResourceFilters(org.eclipse.jdt.ls.core.internal.managers.ProjectsManagerTest)  Time elapsed: 0.472 s
+testCancelInitJob(org.eclipse.jdt.ls.core.internal.managers.ProjectsManagerTest)  Time elapsed: 0.07 s
+testCleanupDefaultProject(org.eclipse.jdt.ls.core.internal.managers.ProjectsManagerTest)  Time elapsed: 0.149 s

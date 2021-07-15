@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.GetterSetterQuickFixTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.831 s - in org.eclipse.jdt.ls.core.internal.correction.GetterSetterQuickFixTest
+testInvisibleFieldToGetterSetter(org.eclipse.jdt.ls.core.internal.correction.GetterSetterQuickFixTest)  Time elapsed: 0.532 s
+testInvisibleFieldToGetterSetter_2(org.eclipse.jdt.ls.core.internal.correction.GetterSetterQuickFixTest)  Time elapsed: 0.586 s
+testInvisibleFieldToGetterSetter_3(org.eclipse.jdt.ls.core.internal.correction.GetterSetterQuickFixTest)  Time elapsed: 0.56 s
+testInvisibleFieldToGetterSetter_4(org.eclipse.jdt.ls.core.internal.correction.GetterSetterQuickFixTest)  Time elapsed: 0.576 s
+testInvisibleFieldToGetterSetter_5(org.eclipse.jdt.ls.core.internal.correction.GetterSetterQuickFixTest)  Time elapsed: 0.154 s
+testCreateFieldUsingSef(org.eclipse.jdt.ls.core.internal.correction.GetterSetterQuickFixTest)  Time elapsed: 0.423 s

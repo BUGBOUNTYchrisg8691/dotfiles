@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.209 s - in org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandlerTest
+testSourceVersion(org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandlerTest)  Time elapsed: 0.602 s
+testGetEmptyDefinition(org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandlerTest)  Time elapsed: 0.422 s
+testJdkClasses(org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandlerTest)  Time elapsed: 1.157 s
+testDisassembledSource(org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandlerTest)  Time elapsed: 0.766 s
+testAttachedSource(org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandlerTest)  Time elapsed: 0.765 s
+testNoClassContentSupport(org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandlerTest)  Time elapsed: 0.738 s
+testBreakContinue(org.eclipse.jdt.ls.core.internal.handlers.NavigateToDefinitionHandlerTest)  Time elapsed: 0.758 s

@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.CallHierarchyHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.214 s - in org.eclipse.jdt.ls.core.internal.handlers.CallHierarchyHandlerTest
+prepareCallHierarchy(org.eclipse.jdt.ls.core.internal.handlers.CallHierarchyHandlerTest)  Time elapsed: 0.658 s
+incomingCalls_maven(org.eclipse.jdt.ls.core.internal.handlers.CallHierarchyHandlerTest)  Time elapsed: 0.75 s
+outgoingCalls_src(org.eclipse.jdt.ls.core.internal.handlers.CallHierarchyHandlerTest)  Time elapsed: 0.759 s
+incomingCalls_src(org.eclipse.jdt.ls.core.internal.handlers.CallHierarchyHandlerTest)  Time elapsed: 0.77 s
+prepareCallHierarchy_src_enclosing(org.eclipse.jdt.ls.core.internal.handlers.CallHierarchyHandlerTest)  Time elapsed: 0.725 s
+prepareCallHierarchy_noItemAtLocation(org.eclipse.jdt.ls.core.internal.handlers.CallHierarchyHandlerTest)  Time elapsed: 0.713 s
+outgoing_jar(org.eclipse.jdt.ls.core.internal.handlers.CallHierarchyHandlerTest)  Time elapsed: 0.838 s

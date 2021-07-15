@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.StaticReferenceQuickFixTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.546 s - in org.eclipse.jdt.ls.core.internal.correction.StaticReferenceQuickFixTest
+testNonStaticFieldFromStaticInvocation(org.eclipse.jdt.ls.core.internal.correction.StaticReferenceQuickFixTest)  Time elapsed: 0.135 s
+testInstanceMethodDuringConstructorInvocation(org.eclipse.jdt.ls.core.internal.correction.StaticReferenceQuickFixTest)  Time elapsed: 0.143 s
+testStaticMethodRequested(org.eclipse.jdt.ls.core.internal.correction.StaticReferenceQuickFixTest)  Time elapsed: 0.143 s
+testInstanceFieldDuringConstructorInvocation(org.eclipse.jdt.ls.core.internal.correction.StaticReferenceQuickFixTest)  Time elapsed: 0.124 s

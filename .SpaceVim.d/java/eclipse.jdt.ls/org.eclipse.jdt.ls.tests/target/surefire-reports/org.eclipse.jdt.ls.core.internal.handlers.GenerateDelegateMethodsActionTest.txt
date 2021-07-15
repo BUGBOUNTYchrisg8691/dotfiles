@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.GenerateDelegateMethodsActionTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.845 s - in org.eclipse.jdt.ls.core.internal.handlers.GenerateDelegateMethodsActionTest
+testGenerateDelegateMethodsDisabled(org.eclipse.jdt.ls.core.internal.handlers.GenerateDelegateMethodsActionTest)  Time elapsed: 1.561 s
+testGenerateDelegateMethodsDisabled_interface(org.eclipse.jdt.ls.core.internal.handlers.GenerateDelegateMethodsActionTest)  Time elapsed: 0.505 s
+testGenerateDelegateMethodsEnabled(org.eclipse.jdt.ls.core.internal.handlers.GenerateDelegateMethodsActionTest)  Time elapsed: 0.779 s

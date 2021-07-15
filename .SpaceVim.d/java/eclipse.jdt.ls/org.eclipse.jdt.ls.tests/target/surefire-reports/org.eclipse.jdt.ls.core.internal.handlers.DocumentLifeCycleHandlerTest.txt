@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.295 s - in org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest
+testUnimplementedMethods(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.128 s
+testDidOpenStandaloneFileWithSyntaxError(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.122 s
+testNotExpectedPackage2(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.192 s
+testDidOpenLazyLoadingInvisibleProject(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.108 s
+testDidOpenStandaloneFileWithNonSyntaxErrors(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.122 s
+testFixInDependencyScenario(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.163 s
+testIncrementalChangeDocument(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.155 s
+testDidOpenNotOnClasspath(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.198 s
+testDidOpenStandaloneFile(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.121 s
+testBasicBufferLifeCycle(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.158 s
+testNotExpectedPackage(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.158 s
+testRemoveDeadCodeAfterIf(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.135 s
+testCloseMissingResource(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.129 s
+testBasicBufferLifeCycleWithoutSave(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.141 s
+testReconcile(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.112 s
+testCreateCompilationUnit(org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandlerTest)  Time elapsed: 0.152 s

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.ReturnTypeQuickFixTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.667 s - in org.eclipse.jdt.ls.core.internal.correction.ReturnTypeQuickFixTest
+testMethodReturnsVoid(org.eclipse.jdt.ls.core.internal.correction.ReturnTypeQuickFixTest)  Time elapsed: 0.188 s
+testShouldReturn(org.eclipse.jdt.ls.core.internal.correction.ReturnTypeQuickFixTest)  Time elapsed: 0.178 s
+testMissingReturnType(org.eclipse.jdt.ls.core.internal.correction.ReturnTypeQuickFixTest)  Time elapsed: 0.15 s
+testVoidMethodReturnsValue(org.eclipse.jdt.ls.core.internal.correction.ReturnTypeQuickFixTest)  Time elapsed: 0.151 s

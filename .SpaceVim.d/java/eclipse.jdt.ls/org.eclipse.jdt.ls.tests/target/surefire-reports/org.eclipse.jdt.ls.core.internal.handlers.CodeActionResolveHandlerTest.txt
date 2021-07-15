@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.CodeActionResolveHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.02 s - in org.eclipse.jdt.ls.core.internal.handlers.CodeActionResolveHandlerTest
+testResolveCodeAction_AnnotationQuickFixes(org.eclipse.jdt.ls.core.internal.handlers.CodeActionResolveHandlerTest)  Time elapsed: 0.505 s
+testResolveCodeAction_QuickFixes(org.eclipse.jdt.ls.core.internal.handlers.CodeActionResolveHandlerTest)  Time elapsed: 0.108 s
+testResolveCodeAction_QuickAssists(org.eclipse.jdt.ls.core.internal.handlers.CodeActionResolveHandlerTest)  Time elapsed: 0.147 s
+testResolveCodeAction_Refactors(org.eclipse.jdt.ls.core.internal.handlers.CodeActionResolveHandlerTest)  Time elapsed: 0.147 s
+testResolveCodeAction_SourceActions(org.eclipse.jdt.ls.core.internal.handlers.CodeActionResolveHandlerTest)  Time elapsed: 0.113 s

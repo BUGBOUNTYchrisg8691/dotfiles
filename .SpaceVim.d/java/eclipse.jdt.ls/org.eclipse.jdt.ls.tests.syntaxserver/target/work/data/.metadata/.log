@@ -1,0 +1,460 @@
+!SESSION 2021-07-14 23:48:49.713 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -application org.eclipse.tycho.surefire.osgibooter.headlesstest -testproperties /home/chrisg/.SpaceVim.d/java/eclipse.jdt.ls/org.eclipse.jdt.ls.tests.syntaxserver/target/surefire.properties
+Command-line arguments:  -data /home/chrisg/.SpaceVim.d/java/eclipse.jdt.ls/org.eclipse.jdt.ls.tests.syntaxserver/target/work/data -application org.eclipse.tycho.surefire.osgibooter.headlesstest -testproperties /home/chrisg/.SpaceVim.d/java/eclipse.jdt.ls/org.eclipse.jdt.ls.tests.syntaxserver/target/surefire.properties
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:53.894
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:54.305
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:54.511
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:55.403
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:55.445
+!MESSAGE Creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:55.476
+!MESSAGE Finished creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:55.523
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:55.768
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:56.549
+!MESSAGE begin problem for /Foo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:56.549
+!MESSAGE 0 problems reported for /Foo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:56.551
+!MESSAGE Validated 1. Took 783 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:56.560
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:57.199
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:57.213
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:57.416
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:57.418
+!MESSAGE Creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:57.431
+!MESSAGE Finished creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:57.448
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:57.454
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:57.825
+!MESSAGE begin problem for /Foo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:57.826
+!MESSAGE 0 problems reported for /Foo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:57.827
+!MESSAGE Validated 1. Took 372 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:57.834
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.226
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.236
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.361
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.365
+!MESSAGE Creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.376
+!MESSAGE Finished creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.405
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.414
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.659
+!MESSAGE begin problem for /TestJavadoc.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.660
+!MESSAGE 0 problems reported for /TestJavadoc.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.661
+!MESSAGE Validated 1. Took 246 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.670
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.873
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.885
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.967
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.968
+!MESSAGE Creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.977
+!MESSAGE Finished creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.989
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:58.993
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.127
+!MESSAGE begin problem for /Completion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.128
+!MESSAGE 0 problems reported for /Completion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.129
+!MESSAGE Validated 1. Took 136 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.142
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.558
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.649
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.659
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.773
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.778
+!MESSAGE Creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.788
+!MESSAGE Finished creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.800
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.805
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.972
+!MESSAGE begin problem for /Completion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.972
+!MESSAGE 0 problems reported for /Completion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.973
+!MESSAGE Validated 1. Took 168 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:48:59.990
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.169
+!MESSAGE Search engine disabled, searching directly.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.379
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.380
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.488
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.623
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.632
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.711
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.713
+!MESSAGE Creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.721
+!MESSAGE Finished creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.731
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.736
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.873
+!MESSAGE begin problem for /TestSyntax.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.874
+!MESSAGE 0 problems reported for /TestSyntax.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.875
+!MESSAGE Validated 1. Took 139 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.983
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:00.993
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.079
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.084
+!MESSAGE Creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.092
+!MESSAGE Finished creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.103
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.107
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.300
+!MESSAGE begin problem for /Foo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.301
+!MESSAGE 0 problems reported for /Foo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.301
+!MESSAGE Validated 1. Took 194 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.307
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.448
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.467
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.609
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.613
+!MESSAGE Creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.623
+!MESSAGE Finished creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.633
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.645
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.849
+!MESSAGE begin problem for /TestSyntaxError.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.849
+!MESSAGE 1 problems reported for /TestSyntaxError.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.852
+!MESSAGE Validated 1. Took 206 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.861
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.865
+!MESSAGE Clearing problems for /TestSyntaxError.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.965
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:01.974
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.074
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.075
+!MESSAGE Creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.089
+!MESSAGE Finished creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.098
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.102
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.246
+!MESSAGE begin problem for /Foo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.246
+!MESSAGE 0 problems reported for /Foo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.247
+!MESSAGE Validated 1. Took 145 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.252
+!MESSAGE >> document/typeDefinition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.336
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.344
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.493
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.494
+!MESSAGE Creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.502
+!MESSAGE Finished creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.509
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.517
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.665
+!MESSAGE begin problem for /Foo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.665
+!MESSAGE 0 problems reported for /Foo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.666
+!MESSAGE Validated 1. Took 149 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.670
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.909
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:02.918
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.030
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.034
+!MESSAGE Creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.042
+!MESSAGE Finished creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.051
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.055
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.236
+!MESSAGE begin problem for /Foo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.237
+!MESSAGE 0 problems reported for /Foo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.238
+!MESSAGE Validated 1. Took 183 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.337
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.344
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.460
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.468
+!MESSAGE Creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.483
+!MESSAGE Finished creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.492
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.495
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.652
+!MESSAGE begin problem for /Completion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.653
+!MESSAGE 0 problems reported for /Completion.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.653
+!MESSAGE Validated 1. Took 158 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.661
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.776
+!MESSAGE Search engine disabled, searching directly.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.877
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.939
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:03.948
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:04.043
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:04.047
+!MESSAGE Creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:04.056
+!MESSAGE Finished creating the Java project salut4_e1c3a42e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:04.065
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:04.069
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:04.192
+!MESSAGE begin problem for /TestSyntaxError.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:04.193
+!MESSAGE 1 problems reported for /TestSyntaxError.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:04.194
+!MESSAGE Validated 1. Took 123 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-14 23:49:04.300
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-07-14 23:49:04.349
+!MESSAGE The workspace will exit with unsaved changes in this session.

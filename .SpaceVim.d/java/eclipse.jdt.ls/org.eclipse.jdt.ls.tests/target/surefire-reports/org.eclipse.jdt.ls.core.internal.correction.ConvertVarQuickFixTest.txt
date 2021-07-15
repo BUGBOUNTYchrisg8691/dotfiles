@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.ConvertVarQuickFixTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.467 s - in org.eclipse.jdt.ls.core.internal.correction.ConvertVarQuickFixTest
+testConvertVarTypeToResolvedType2(org.eclipse.jdt.ls.core.internal.correction.ConvertVarQuickFixTest)  Time elapsed: 0.838 s
+testConvertResolvedTypeToVar2(org.eclipse.jdt.ls.core.internal.correction.ConvertVarQuickFixTest)  Time elapsed: 0.856 s
+testConvertVarTypeToResolvedType(org.eclipse.jdt.ls.core.internal.correction.ConvertVarQuickFixTest)  Time elapsed: 0.894 s
+testConvertResolvedTypeToVar(org.eclipse.jdt.ls.core.internal.correction.ConvertVarQuickFixTest)  Time elapsed: 0.878 s

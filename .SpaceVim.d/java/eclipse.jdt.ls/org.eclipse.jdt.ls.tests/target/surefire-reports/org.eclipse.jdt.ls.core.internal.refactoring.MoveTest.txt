@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.refactoring.MoveTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.337 s - in org.eclipse.jdt.ls.core.internal.refactoring.MoveTest
+testMove_class(org.eclipse.jdt.ls.core.internal.refactoring.MoveTest)  Time elapsed: 0.14 s
+testMove_innerClass(org.eclipse.jdt.ls.core.internal.refactoring.MoveTest)  Time elapsed: 0.127 s
+testMove_noShowInMethodBody(org.eclipse.jdt.ls.core.internal.refactoring.MoveTest)  Time elapsed: 0.152 s
+testMove_noShowInClassBody(org.eclipse.jdt.ls.core.internal.refactoring.MoveTest)  Time elapsed: 0.15 s
+testMove_staticMethod(org.eclipse.jdt.ls.core.internal.refactoring.MoveTest)  Time elapsed: 0.643 s
+testMove_staticField(org.eclipse.jdt.ls.core.internal.refactoring.MoveTest)  Time elapsed: 0.125 s

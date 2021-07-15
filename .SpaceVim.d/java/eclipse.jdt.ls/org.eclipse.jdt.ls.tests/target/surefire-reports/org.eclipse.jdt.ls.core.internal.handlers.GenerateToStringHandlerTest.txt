@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.GenerateToStringHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.834 s - in org.eclipse.jdt.ls.core.internal.handlers.GenerateToStringHandlerTest
+testGenerateToString_customizedSettings(org.eclipse.jdt.ls.core.internal.handlers.GenerateToStringHandlerTest)  Time elapsed: 0.151 s
+testGenerateToString(org.eclipse.jdt.ls.core.internal.handlers.GenerateToStringHandlerTest)  Time elapsed: 0.138 s
+testGenerateToStringBeforeCursorPosition(org.eclipse.jdt.ls.core.internal.handlers.GenerateToStringHandlerTest)  Time elapsed: 0.153 s
+testGenerateToStringAfterCursorPosition(org.eclipse.jdt.ls.core.internal.handlers.GenerateToStringHandlerTest)  Time elapsed: 0.136 s
+testGenerateToStringStatus(org.eclipse.jdt.ls.core.internal.handlers.GenerateToStringHandlerTest)  Time elapsed: 0.119 s
+testCheckToStringStatus_methodsExist(org.eclipse.jdt.ls.core.internal.handlers.GenerateToStringHandlerTest)  Time elapsed: 0.136 s

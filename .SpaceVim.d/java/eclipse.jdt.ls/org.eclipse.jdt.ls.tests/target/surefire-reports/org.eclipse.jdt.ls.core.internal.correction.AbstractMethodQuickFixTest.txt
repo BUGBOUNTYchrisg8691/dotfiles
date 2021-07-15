@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.correction.AbstractMethodQuickFixTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.346 s - in org.eclipse.jdt.ls.core.internal.correction.AbstractMethodQuickFixTest
+testAbstractMethodInConcreteClass(org.eclipse.jdt.ls.core.internal.correction.AbstractMethodQuickFixTest)  Time elapsed: 0.159 s
+testAbstractMethodInEnum2(org.eclipse.jdt.ls.core.internal.correction.AbstractMethodQuickFixTest)  Time elapsed: 0.139 s
+testEnumAbstractMethodMustBeImplementd(org.eclipse.jdt.ls.core.internal.correction.AbstractMethodQuickFixTest)  Time elapsed: 0.177 s
+testAbstractMethodWithBody2(org.eclipse.jdt.ls.core.internal.correction.AbstractMethodQuickFixTest)  Time elapsed: 0.162 s
+testAbstractMethodWithBody3(org.eclipse.jdt.ls.core.internal.correction.AbstractMethodQuickFixTest)  Time elapsed: 0.176 s
+testAbstractMethodWithBody(org.eclipse.jdt.ls.core.internal.correction.AbstractMethodQuickFixTest)  Time elapsed: 0.173 s
+testAbstractMethodInEnum(org.eclipse.jdt.ls.core.internal.correction.AbstractMethodQuickFixTest)  Time elapsed: 0.178 s
+testAbstractMethodInEnumWithoutEnumConstants(org.eclipse.jdt.ls.core.internal.correction.AbstractMethodQuickFixTest)  Time elapsed: 0.181 s

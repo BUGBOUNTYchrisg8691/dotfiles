@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.575 s - in org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest
+testExtractToField_DisabledInNullLiteral(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.128 s
+testExtractToField_staticMethod(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.693 s
+testExtractToField_DisabledInConstructorInvocation(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.117 s
+testExtractToField_DisabledInForInitializer(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.135 s
+testExtractToField_DisabledInVoid(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.161 s
+testExtractToField_anonymousClass(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.196 s
+testExtractToField_DisabledInArrayInitializer(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.138 s
+testExtractToField_constructor(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.461 s
+testExtractToField_lambdaExpression(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.771 s
+testExtractToField_DisabledInNonParenthesizedAssignment(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.123 s
+testExtractToField_DisabledInMethodWithLocalType(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.115 s
+testExtractToField_DisabledInInterface(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.16 s
+testExtractToField_lambdaExpressionReturnVoid(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.888 s
+testExtractToField_DisabledInFieldDeclaration(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.13 s
+testExtractToField_method(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.621 s
+testExtractToField_standaloneStatement(org.eclipse.jdt.ls.core.internal.refactoring.ExtractFieldTest)  Time elapsed: 0.737 s

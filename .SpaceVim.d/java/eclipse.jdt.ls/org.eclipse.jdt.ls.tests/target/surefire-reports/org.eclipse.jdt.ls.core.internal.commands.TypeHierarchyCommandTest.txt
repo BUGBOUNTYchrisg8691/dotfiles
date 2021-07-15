@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.commands.TypeHierarchyCommandTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.686 s - in org.eclipse.jdt.ls.core.internal.commands.TypeHierarchyCommandTest
+testTypeHierarchy(org.eclipse.jdt.ls.core.internal.commands.TypeHierarchyCommandTest)  Time elapsed: 1.12 s
+testSuperTypeHierarchy(org.eclipse.jdt.ls.core.internal.commands.TypeHierarchyCommandTest)  Time elapsed: 0.402 s
+testSubTypeHierarchy(org.eclipse.jdt.ls.core.internal.commands.TypeHierarchyCommandTest)  Time elapsed: 1.163 s

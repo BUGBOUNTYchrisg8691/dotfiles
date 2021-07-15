@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.commands.SourceAttachmentCommandTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.234 s - in org.eclipse.jdt.ls.core.internal.commands.SourceAttachmentCommandTest
+testUpdateSourceAttachment_EmptySourceAttachmentPath(org.eclipse.jdt.ls.core.internal.commands.SourceAttachmentCommandTest)  Time elapsed: 0.145 s
+testResolveSourceAttachment_InvalidParameter(org.eclipse.jdt.ls.core.internal.commands.SourceAttachmentCommandTest)  Time elapsed: 0.153 s
+testResolveSourceAttachmentCall(org.eclipse.jdt.ls.core.internal.commands.SourceAttachmentCommandTest)  Time elapsed: 0.125 s
+testUpdateSourceAttachment_ParameterIsMissing(org.eclipse.jdt.ls.core.internal.commands.SourceAttachmentCommandTest)  Time elapsed: 0.118 s
+testUpdateSourceAttachment_InvalidParameter(org.eclipse.jdt.ls.core.internal.commands.SourceAttachmentCommandTest)  Time elapsed: 0.129 s
+testUpdateSourceAttachmentFromExternalJar(org.eclipse.jdt.ls.core.internal.commands.SourceAttachmentCommandTest)  Time elapsed: 0.156 s
+testUpdateSourceAttachmentFromProjectJar(org.eclipse.jdt.ls.core.internal.commands.SourceAttachmentCommandTest)  Time elapsed: 0.275 s
+testResolveSourceAttachment_ParameterIsMissing(org.eclipse.jdt.ls.core.internal.commands.SourceAttachmentCommandTest)  Time elapsed: 0.133 s

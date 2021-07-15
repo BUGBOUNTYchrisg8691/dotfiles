@@ -1,0 +1,8 @@
+package p;
+
+public abstract class C {
+
+	public void c(java.util.Hashtable h) {
+	}
+}
+

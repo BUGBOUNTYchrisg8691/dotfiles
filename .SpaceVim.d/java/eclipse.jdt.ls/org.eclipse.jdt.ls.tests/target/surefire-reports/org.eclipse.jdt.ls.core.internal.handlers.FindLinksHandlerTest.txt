@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.FindLinksHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.35 s - in org.eclipse.jdt.ls.core.internal.handlers.FindLinksHandlerTest
+testFindSuperMethod(org.eclipse.jdt.ls.core.internal.handlers.FindLinksHandlerTest)  Time elapsed: 0.121 s
+testNoSuperMethod(org.eclipse.jdt.ls.core.internal.handlers.FindLinksHandlerTest)  Time elapsed: 0.109 s
+testFindNearestSuperMethod(org.eclipse.jdt.ls.core.internal.handlers.FindLinksHandlerTest)  Time elapsed: 0.12 s

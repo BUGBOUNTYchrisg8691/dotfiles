@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.ConnectionStreamFactoryTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.eclipse.jdt.ls.core.internal.ConnectionStreamFactoryTest
+testStdIOSelection(org.eclipse.jdt.ls.core.internal.ConnectionStreamFactoryTest)  Time elapsed: 0.002 s
+testSocketSelection(org.eclipse.jdt.ls.core.internal.ConnectionStreamFactoryTest)  Time elapsed: 0.001 s
+testStdInOut(org.eclipse.jdt.ls.core.internal.ConnectionStreamFactoryTest)  Time elapsed: 0.001 s

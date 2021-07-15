@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.SendNotificationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s - in org.eclipse.jdt.ls.core.internal.SendNotificationTest
+testNotifyNoArgs(org.eclipse.jdt.ls.core.internal.SendNotificationTest)  Time elapsed: 0.047 s
+testNotifyWithException(org.eclipse.jdt.ls.core.internal.SendNotificationTest)  Time elapsed: 0.023 s
+testNotifyWithWait(org.eclipse.jdt.ls.core.internal.SendNotificationTest)  Time elapsed: 0.019 s
+testNotify(org.eclipse.jdt.ls.core.internal.SendNotificationTest)  Time elapsed: 0.021 s

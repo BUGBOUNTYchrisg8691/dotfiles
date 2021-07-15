@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporterTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.457 s - in org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporterTest
+testUseReleaseFlagByDefault(org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporterTest)  Time elapsed: 0.14 s
+testPreviewFeaturesNotAvailable(org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporterTest)  Time elapsed: 0.131 s
+importMultipleJavaProject(org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporterTest)  Time elapsed: 0.135 s
+testPreviewFeaturesDisabledByDefault(org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporterTest)  Time elapsed: 0.148 s
+testJavaImportExclusions(org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporterTest)  Time elapsed: 0.245 s
+testDeleteClasspath(org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporterTest)  Time elapsed: 0.125 s
+testClasspath(org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporterTest)  Time elapsed: 0.097 s
+ignoreMissingResourceFilters(org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporterTest)  Time elapsed: 0.107 s
+importSimpleJavaProject(org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporterTest)  Time elapsed: 0.254 s
+testFindUniqueProject(org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporterTest)  Time elapsed: 0.073 s

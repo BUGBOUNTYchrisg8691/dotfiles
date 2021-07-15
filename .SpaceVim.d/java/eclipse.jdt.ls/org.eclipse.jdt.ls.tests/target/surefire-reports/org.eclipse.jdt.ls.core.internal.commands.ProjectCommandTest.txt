@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.864 s - in org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest
+testGetProjectSettingsForMavenJava7(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.513 s
+testGetProjectSettingsForMavenJava8(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.344 s
+testGetClasspathsForGradle(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.536 s
+testGetClasspathsForMavenModular(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.372 s
+testIsTestFileForGradle(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.389 s
+testGetInvisibleProjectFromUri(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.144 s
+testGetClasspathsForMavenWhenUpdating(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.604 s
+testGetProjectOutputPath(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.14 s
+testGetMavenProjectFromUri(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.446 s
+getAllJavaProject(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.684 s
+testGetProjectVMInstallation(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.436 s
+testGetClasspathsForMaven(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.381 s
+testGetProjectSourcePaths(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.149 s
+testIsTestFileForMaven(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.324 s
+testGetClasspathsForEclipse(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.232 s
+testGetProjectReferencedLibraryPaths(org.eclipse.jdt.ls.core.internal.commands.ProjectCommandTest)  Time elapsed: 0.169 s

@@ -1,0 +1,5 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.managers.GradleBuildSupportTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.156 s - in org.eclipse.jdt.ls.core.internal.managers.GradleBuildSupportTest
+testUpdate(org.eclipse.jdt.ls.core.internal.managers.GradleBuildSupportTest)  Time elapsed: 1.156 s

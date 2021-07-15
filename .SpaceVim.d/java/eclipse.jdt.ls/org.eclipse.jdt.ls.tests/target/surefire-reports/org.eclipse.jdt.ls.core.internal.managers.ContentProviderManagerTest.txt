@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.438 s - in org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest
+testPreferUnknownExtension(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 1.22 s
+testDecompileSourceCode(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.696 s
+testPreferNonexistingProviderClass(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.726 s
+testDecompilePreferExistingProviderClass(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.757 s
+testThrowsException(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.786 s
+testPreferDisassembler(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.688 s
+testDecompilePreferNonexistingProviderClass(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.729 s
+testOpenMissingFile(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.758 s
+testOpenThingy(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.684 s
+testDecompileThrowsException(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.714 s
+testExpectPreferences(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.729 s
+testCancelMonitor(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.736 s
+testDefaultOrder(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.803 s
+testDecompileNothing(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.787 s
+testOpenSourceCode(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.722 s
+testPreferExistingProviderClass(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.725 s
+testDecompileDefaultOrder(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.707 s
+testOpenNothing(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.746 s
+testNoCaching(org.eclipse.jdt.ls.core.internal.managers.ContentProviderManagerTest)  Time elapsed: 0.724 s

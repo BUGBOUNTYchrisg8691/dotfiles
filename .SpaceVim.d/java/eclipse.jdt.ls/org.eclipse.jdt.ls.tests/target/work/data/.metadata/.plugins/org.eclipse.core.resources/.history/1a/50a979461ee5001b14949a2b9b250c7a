@@ -1,0 +1,8 @@
+package p;
+
+public class C extends B {
+	private static String logger;
+	private final String uuid = "123";
+	private final String instance;
+	private String address;
+}

@@ -1,0 +1,13 @@
+package p;
+
+public class B {
+
+	private Object o;
+
+	/**
+	 * @param o The o to set.
+	 */
+	synchronized void setO(Object o) {
+		this.o = o;
+	}
+}

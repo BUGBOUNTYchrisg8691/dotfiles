@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.CodeLensHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.115 s - in org.eclipse.jdt.ls.core.internal.handlers.CodeLensHandlerTest
+testIgnoreLombokCodeLensSymbols(org.eclipse.jdt.ls.core.internal.handlers.CodeLensHandlerTest)  Time elapsed: 0.199 s
+testDisableCodeLensSymbols(org.eclipse.jdt.ls.core.internal.handlers.CodeLensHandlerTest)  Time elapsed: 0.186 s
+testGetCodeLensSymbolsForClass(org.eclipse.jdt.ls.core.internal.handlers.CodeLensHandlerTest)  Time elapsed: 0.698 s
+testResolveCodeLense(org.eclipse.jdt.ls.core.internal.handlers.CodeLensHandlerTest)  Time elapsed: 0.681 s
+testResolveCodeLenseBoundaries(org.eclipse.jdt.ls.core.internal.handlers.CodeLensHandlerTest)  Time elapsed: 0.245 s
+testDisableImplementationsCodeLensSymbols(org.eclipse.jdt.ls.core.internal.handlers.CodeLensHandlerTest)  Time elapsed: 0.167 s
+testGetCodeLenseBoundaries(org.eclipse.jdt.ls.core.internal.handlers.CodeLensHandlerTest)  Time elapsed: 0.171 s
+testGetCodeLensSymbols(org.eclipse.jdt.ls.core.internal.handlers.CodeLensHandlerTest)  Time elapsed: 0.207 s
+testResolveImplementationsCodeLens(org.eclipse.jdt.ls.core.internal.handlers.CodeLensHandlerTest)  Time elapsed: 0.387 s
+testEnableImplementationsCodeLensSymbols(org.eclipse.jdt.ls.core.internal.handlers.CodeLensHandlerTest)  Time elapsed: 0.174 s

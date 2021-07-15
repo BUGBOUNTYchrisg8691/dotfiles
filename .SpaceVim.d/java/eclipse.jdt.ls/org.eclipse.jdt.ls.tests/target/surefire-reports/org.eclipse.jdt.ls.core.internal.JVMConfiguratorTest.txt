@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.JVMConfiguratorTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.097 s - in org.eclipse.jdt.ls.core.internal.JVMConfiguratorTest
+testJVM(org.eclipse.jdt.ls.core.internal.JVMConfiguratorTest)  Time elapsed: 0.218 s
+testDefaultVM(org.eclipse.jdt.ls.core.internal.JVMConfiguratorTest)  Time elapsed: 0.172 s
+testInvalidRuntime(org.eclipse.jdt.ls.core.internal.JVMConfiguratorTest)  Time elapsed: 0.041 s
+testPreviewFeatureSettings(org.eclipse.jdt.ls.core.internal.JVMConfiguratorTest)  Time elapsed: 0.597 s
+testInvalidJavadoc(org.eclipse.jdt.ls.core.internal.JVMConfiguratorTest)  Time elapsed: 0.037 s
+testInvalidRuntimeWithActionableNotification(org.eclipse.jdt.ls.core.internal.JVMConfiguratorTest)  Time elapsed: 0.032 s

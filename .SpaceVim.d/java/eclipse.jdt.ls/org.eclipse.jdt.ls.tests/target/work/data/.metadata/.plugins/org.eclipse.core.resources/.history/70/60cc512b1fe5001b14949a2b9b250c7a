@@ -1,0 +1,10 @@
+package p;
+
+public class A {
+
+	public abstract void a();
+}
+
+public abstract class A {
+}
+

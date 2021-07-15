@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.WorkspaceSymbolHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.095 s - in org.eclipse.jdt.ls.core.internal.handlers.WorkspaceSymbolHandlerTest
+testWorkspaceSearchNoClassContentSupport(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceSymbolHandlerTest)  Time elapsed: 0.691 s
+testSearchWithEmptyResults(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceSymbolHandlerTest)  Time elapsed: 0.646 s
+testEmptyNames(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceSymbolHandlerTest)  Time elapsed: 1.59 s
+testWorkspaceSearch(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceSymbolHandlerTest)  Time elapsed: 0.677 s
+testDeprecated_property(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceSymbolHandlerTest)  Time elapsed: 0.656 s
+testSearchSourcMethodDeclarations(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceSymbolHandlerTest)  Time elapsed: 0.706 s
+testCamelCaseSearch(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceSymbolHandlerTest)  Time elapsed: 0.739 s
+testSearchReturnMaxResults(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceSymbolHandlerTest)  Time elapsed: 0.649 s
+testSearchSourceOnly(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceSymbolHandlerTest)  Time elapsed: 0.667 s
+testProjectSearch(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceSymbolHandlerTest)  Time elapsed: 0.677 s
+testWorkspaceSearchOnFileInWorkspace(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceSymbolHandlerTest)  Time elapsed: 0.684 s
+testDeprecated(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceSymbolHandlerTest)  Time elapsed: 0.713 s

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.refactoring.AdvancedExtractTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.738 s - in org.eclipse.jdt.ls.core.internal.refactoring.AdvancedExtractTest
+testExtractVariable(org.eclipse.jdt.ls.core.internal.refactoring.AdvancedExtractTest)  Time elapsed: 0.442 s
+testMoveInnerType(org.eclipse.jdt.ls.core.internal.refactoring.AdvancedExtractTest)  Time elapsed: 0.129 s
+testMoveFile(org.eclipse.jdt.ls.core.internal.refactoring.AdvancedExtractTest)  Time elapsed: 0.126 s
+testExtractMethod(org.eclipse.jdt.ls.core.internal.refactoring.AdvancedExtractTest)  Time elapsed: 0.381 s
+testMoveStaticMember(org.eclipse.jdt.ls.core.internal.refactoring.AdvancedExtractTest)  Time elapsed: 0.127 s
+testMoveInstanceMethod(org.eclipse.jdt.ls.core.internal.refactoring.AdvancedExtractTest)  Time elapsed: 0.532 s

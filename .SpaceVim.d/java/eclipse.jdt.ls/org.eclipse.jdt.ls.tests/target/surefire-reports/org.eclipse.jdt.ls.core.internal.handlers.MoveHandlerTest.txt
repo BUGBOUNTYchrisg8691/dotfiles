@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.MoveHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.093 s - in org.eclipse.jdt.ls.core.internal.handlers.MoveHandlerTest
+testGetInstanceMethodDestinations(org.eclipse.jdt.ls.core.internal.handlers.MoveHandlerTest)  Time elapsed: 0.122 s
+testMoveStaticField(org.eclipse.jdt.ls.core.internal.handlers.MoveHandlerTest)  Time elapsed: 1.279 s
+testMoveStaticInnerType(org.eclipse.jdt.ls.core.internal.handlers.MoveHandlerTest)  Time elapsed: 1.188 s
+testGetPackageDestinations(org.eclipse.jdt.ls.core.internal.handlers.MoveHandlerTest)  Time elapsed: 0.073 s
+testMoveFile(org.eclipse.jdt.ls.core.internal.handlers.MoveHandlerTest)  Time elapsed: 0.575 s
+testMoveInnerTypeToFile(org.eclipse.jdt.ls.core.internal.handlers.MoveHandlerTest)  Time elapsed: 1.239 s
+testMoveStaticMethod(org.eclipse.jdt.ls.core.internal.handlers.MoveHandlerTest)  Time elapsed: 1.215 s
+testMoveMultiFiles(org.eclipse.jdt.ls.core.internal.handlers.MoveHandlerTest)  Time elapsed: 0.665 s
+testMoveInstanceMethod(org.eclipse.jdt.ls.core.internal.handlers.MoveHandlerTest)  Time elapsed: 0.735 s

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.JavaSettingsTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.931 s - in org.eclipse.jdt.ls.core.internal.handlers.JavaSettingsTest
+testFormatter(org.eclipse.jdt.ls.core.internal.handlers.JavaSettingsTest)  Time elapsed: 0.315 s
+testRelativeFilePath(org.eclipse.jdt.ls.core.internal.handlers.JavaSettingsTest)  Time elapsed: 0.255 s
+testSettingsV3(org.eclipse.jdt.ls.core.internal.handlers.JavaSettingsTest)  Time elapsed: 0.423 s
+testFilePath(org.eclipse.jdt.ls.core.internal.handlers.JavaSettingsTest)  Time elapsed: 0.398 s
+testFileChangedOnWindows(org.eclipse.jdt.ls.core.internal.handlers.JavaSettingsTest)  Time elapsed: 0.242 s
+testFileChanged(org.eclipse.jdt.ls.core.internal.handlers.JavaSettingsTest)  Time elapsed: 0.297 s

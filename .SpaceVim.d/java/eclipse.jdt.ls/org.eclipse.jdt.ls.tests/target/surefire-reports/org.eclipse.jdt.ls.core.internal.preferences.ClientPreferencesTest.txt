@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest
+testIsSignatureHelpSupported(org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest)  Time elapsed: 0.013 s
+testIsSignatureHelpDynamicRegistrationSupported(org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest)  Time elapsed: 0.004 s
+testIsSymbolTagSupported(org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest)  Time elapsed: 0.005 s
+testClientPreferences(org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest)  Time elapsed: 0.003 s
+testIsRenameDynamicRegistrationSupported(org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest)  Time elapsed: 0.007 s
+testIsFormattingDynamicRegistrationSupported(org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest)  Time elapsed: 0.004 s
+testIsExecuteCommandDynamicRegistrationSupported(org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest)  Time elapsed: 0.004 s
+testIsV3Supported(org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest)  Time elapsed: 0.004 s
+testIsRangeFormattingDynamicRegistrationSupported(org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest)  Time elapsed: 0.004 s
+testIsCompletionSnippetsSupported(org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest)  Time elapsed: 0.004 s
+testIsCompletionItemTagSupported(org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest)  Time elapsed: 0.005 s
+testIsCodeLensDynamicRegistrationSupported(org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest)  Time elapsed: 0.004 s
+testIsHierarchicalDocumentSymbolSupported(org.eclipse.jdt.ls.core.internal.preferences.ClientPreferencesTest)  Time elapsed: 0.004 s

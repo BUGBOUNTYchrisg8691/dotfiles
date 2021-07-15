@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.292 s - in org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest
+testHoverType(org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest)  Time elapsed: 3.1 s
+testDefinition(org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest)  Time elapsed: 1.03 s
+testHover(org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest)  Time elapsed: 0.653 s
+testCompletionOnQualifiedName(org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest)  Time elapsed: 0.778 s
+testResolveCompletion(org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest)  Time elapsed: 0.977 s
+testParameterMismatch(org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest)  Time elapsed: 0.358 s
+testDocumentSymbol(org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest)  Time elapsed: 0.465 s
+testDidClose(org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest)  Time elapsed: 0.52 s
+testTypeDefinition(org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest)  Time elapsed: 0.374 s
+testHoverUnresolvedType(org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest)  Time elapsed: 0.568 s
+testDidOpen(org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest)  Time elapsed: 0.436 s
+testCompletionOnSingleName(org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest)  Time elapsed: 0.599 s
+testSyntaxDiagnostics(org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxServerTest)  Time elapsed: 0.336 s

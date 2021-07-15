@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.managers.MultiRootTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.286 s - in org.eclipse.jdt.ls.core.internal.managers.MultiRootTest
+testUpdateMultiFolders(org.eclipse.jdt.ls.core.internal.managers.MultiRootTest)  Time elapsed: 1.452 s
+testInitializeWithMultiFolders(org.eclipse.jdt.ls.core.internal.managers.MultiRootTest)  Time elapsed: 0.834 s

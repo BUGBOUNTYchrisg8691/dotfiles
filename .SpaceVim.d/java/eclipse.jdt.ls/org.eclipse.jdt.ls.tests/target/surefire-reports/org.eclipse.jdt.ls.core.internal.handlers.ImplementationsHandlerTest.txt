@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.169 s - in org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest
+testUnimplementedMethodImplementation_includeDefinition(org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest)  Time elapsed: 1.05 s
+testInterfaceImplementation(org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest)  Time elapsed: 0.663 s
+testEmpty(org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest)  Time elapsed: 0.199 s
+testMethodInvocationImplementation(org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest)  Time elapsed: 0.556 s
+testMethodImplementation_includeDefinition(org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest)  Time elapsed: 0.735 s
+testImplementationFromBinaryTypeWithClassContentSupport(org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest)  Time elapsed: 0.723 s
+testImplementationFromBinaryTypeWithoutClassContentSupport(org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest)  Time elapsed: 0.777 s
+testClassImplementation_includeDefinition(org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest)  Time elapsed: 0.704 s
+testInvalidElement(org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest)  Time elapsed: 0.189 s
+testMethodSuperInvocationImplementation(org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest)  Time elapsed: 0.201 s
+testUnimplementedClassImplementation_includeDefinition(org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest)  Time elapsed: 0.929 s
+testMethodImplementation(org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest)  Time elapsed: 0.698 s
+testClassImplementation(org.eclipse.jdt.ls.core.internal.handlers.ImplementationsHandlerTest)  Time elapsed: 0.744 s

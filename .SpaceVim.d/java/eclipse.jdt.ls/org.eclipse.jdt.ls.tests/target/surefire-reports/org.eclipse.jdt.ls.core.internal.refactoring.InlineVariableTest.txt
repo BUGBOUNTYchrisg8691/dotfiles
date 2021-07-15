@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.refactoring.InlineVariableTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.384 s - in org.eclipse.jdt.ls.core.internal.refactoring.InlineVariableTest
+testInlineLocalVariableWithNoReferences(org.eclipse.jdt.ls.core.internal.refactoring.InlineVariableTest)  Time elapsed: 0.668 s
+testInlineLocalVariable(org.eclipse.jdt.ls.core.internal.refactoring.InlineVariableTest)  Time elapsed: 0.716 s

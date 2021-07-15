@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.GenerateAccessorsActionTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.214 s - in org.eclipse.jdt.ls.core.internal.handlers.GenerateAccessorsActionTest
+testGenerateAccessorsDisabled_emptyFields(org.eclipse.jdt.ls.core.internal.handlers.GenerateAccessorsActionTest)  Time elapsed: 0.28 s
+testAdvancedGenerateAccessorsEnabled(org.eclipse.jdt.ls.core.internal.handlers.GenerateAccessorsActionTest)  Time elapsed: 0.302 s
+testGenerateAccessorsEnabled(org.eclipse.jdt.ls.core.internal.handlers.GenerateAccessorsActionTest)  Time elapsed: 0.314 s
+testGenerateAccessorsDisabled_interface(org.eclipse.jdt.ls.core.internal.handlers.GenerateAccessorsActionTest)  Time elapsed: 0.318 s

@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.GenerateAccessorsHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.701 s - in org.eclipse.jdt.ls.core.internal.handlers.GenerateAccessorsHandlerTest
+testGenerateAccessors(org.eclipse.jdt.ls.core.internal.handlers.GenerateAccessorsHandlerTest)  Time elapsed: 0.14 s
+testResolveUnimplementedAccessors(org.eclipse.jdt.ls.core.internal.handlers.GenerateAccessorsHandlerTest)  Time elapsed: 0.111 s
+testGenerateAccessorsAfterCursorPosition(org.eclipse.jdt.ls.core.internal.handlers.GenerateAccessorsHandlerTest)  Time elapsed: 0.156 s
+testGenerateAccessorsBeforeCursorPosition(org.eclipse.jdt.ls.core.internal.handlers.GenerateAccessorsHandlerTest)  Time elapsed: 0.166 s
+testResolveUnimplementedAccessors_methodsExist(org.eclipse.jdt.ls.core.internal.handlers.GenerateAccessorsHandlerTest)  Time elapsed: 0.128 s

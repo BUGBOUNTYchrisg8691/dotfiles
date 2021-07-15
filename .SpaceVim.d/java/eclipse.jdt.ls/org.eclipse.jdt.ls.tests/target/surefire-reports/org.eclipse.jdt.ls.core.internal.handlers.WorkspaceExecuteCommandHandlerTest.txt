@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.287 s - in org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandlerTest
+testExecuteCommandThrowsExceptionCommand(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandlerTest)  Time elapsed: 0.038 s
+testExecuteCommandInvalidParameters(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandlerTest)  Time elapsed: 0.021 s
+testExecuteCommand(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandlerTest)  Time elapsed: 0.025 s
+testRegistryEventListener(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandlerTest)  Time elapsed: 0.166 s
+testExecuteCommandNonexistingCommand(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandlerTest)  Time elapsed: 0.018 s
+testExecuteCommandMorethanOneCommand(org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandlerTest)  Time elapsed: 0.019 s

@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.737 s - in org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest
+testInvertGreaterOperator(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.849 s
+testInvertConditionalAndOperator(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.867 s
+testInvertBooleanLiteralWithParentheses(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.883 s
+testInvertXorOperator(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.826 s
+testCombinedCondition(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.98 s
+testInvertVariable(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.803 s
+testInvertMethodCalling(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.783 s
+testInvertNotEqualsOperator(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.854 s
+testCombinedConditionWithPartialSelection(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.796 s
+testInvertComplexCondition(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.753 s
+testCombinedConditionWithPartialSelection2(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.78 s
+testInvertBooleanLiteral(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.847 s
+testInvertLessEqualsOperator(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.841 s
+testInvertLessOperator(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.833 s
+testInvertEqualsOperator(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.824 s
+testInvertAndOperator(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.83 s
+testInvertOrOperator(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.854 s
+testInvertGreaterEqualsOperator(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.875 s
+testInvertConditionalOrOperator(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.821 s
+testConditionalOperator(org.eclipse.jdt.ls.core.internal.refactoring.InvertConditionTest)  Time elapsed: 0.838 s

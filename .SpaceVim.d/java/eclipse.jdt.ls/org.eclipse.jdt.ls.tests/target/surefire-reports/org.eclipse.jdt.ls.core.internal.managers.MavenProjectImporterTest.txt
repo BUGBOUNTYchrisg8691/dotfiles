@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.541 s - in org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest
+testJava15Project(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.659 s
+testAnnotationProcessing(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 1.682 s
+testUnchangedProjectShouldNotBeUpdated(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.417 s
+testInvalidProject(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.818 s
+testJava13Project(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.369 s
+testJava11Project(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.401 s
+testJava16Project(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.339 s
+testJavaImportExclusions(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.314 s
+testChangedProjectShouldBeUpdated(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.615 s
+testDisableMaven(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.105 s
+testUnzippedSourceImportExclusions(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.077 s
+testPreexistingIProjectSameName(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.39 s
+testJava9Project(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.382 s
+testJava14Project(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.34 s
+testDeleteClasspath(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.6 s
+testJava12Project(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.348 s
+testNodeModules(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.527 s
+testImportSimpleJavaProject(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.376 s
+testJava10Project(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.339 s
+testPreexistingIProjectDifferentName(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.042 s
+testJava110Project(org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporterTest)  Time elapsed: 0.399 s

@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.GenerateDelegateMethodsHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.628 s - in org.eclipse.jdt.ls.core.internal.handlers.GenerateDelegateMethodsHandlerTest
+testGenerateDelegateMethodsBeforeCursorPosition(org.eclipse.jdt.ls.core.internal.handlers.GenerateDelegateMethodsHandlerTest)  Time elapsed: 3.444 s
+testCheckDelegateMethodsStatus_excludeExists(org.eclipse.jdt.ls.core.internal.handlers.GenerateDelegateMethodsHandlerTest)  Time elapsed: 0.396 s
+testCheckDelegateMethodsStatus(org.eclipse.jdt.ls.core.internal.handlers.GenerateDelegateMethodsHandlerTest)  Time elapsed: 0.24 s
+testGenerateDelegateMethodsAfterCursorPosition(org.eclipse.jdt.ls.core.internal.handlers.GenerateDelegateMethodsHandlerTest)  Time elapsed: 0.263 s
+testGenerateDelegateMethods(org.eclipse.jdt.ls.core.internal.handlers.GenerateDelegateMethodsHandlerTest)  Time elapsed: 0.243 s

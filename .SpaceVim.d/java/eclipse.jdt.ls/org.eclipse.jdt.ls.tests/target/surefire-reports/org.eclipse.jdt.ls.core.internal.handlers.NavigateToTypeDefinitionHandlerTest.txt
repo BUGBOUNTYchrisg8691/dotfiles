@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.handlers.NavigateToTypeDefinitionHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.507 s - in org.eclipse.jdt.ls.core.internal.handlers.NavigateToTypeDefinitionHandlerTest
+testGetEmptyDefinition(org.eclipse.jdt.ls.core.internal.handlers.NavigateToTypeDefinitionHandlerTest)  Time elapsed: 0.478 s
+testClassField(org.eclipse.jdt.ls.core.internal.handlers.NavigateToTypeDefinitionHandlerTest)  Time elapsed: 0.641 s
+testExternalClassField(org.eclipse.jdt.ls.core.internal.handlers.NavigateToTypeDefinitionHandlerTest)  Time elapsed: 0.743 s
+testLocalVariable(org.eclipse.jdt.ls.core.internal.handlers.NavigateToTypeDefinitionHandlerTest)  Time elapsed: 0.763 s
+testDisassembledSource(org.eclipse.jdt.ls.core.internal.handlers.NavigateToTypeDefinitionHandlerTest)  Time elapsed: 0.722 s
+testAttachedSource(org.eclipse.jdt.ls.core.internal.handlers.NavigateToTypeDefinitionHandlerTest)  Time elapsed: 1.117 s
+testNoClassContentSupport(org.eclipse.jdt.ls.core.internal.handlers.NavigateToTypeDefinitionHandlerTest)  Time elapsed: 1.043 s

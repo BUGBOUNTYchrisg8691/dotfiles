@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.jdt.ls.core.internal.commands.SemanticTokensCommandTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.739 s - in org.eclipse.jdt.ls.core.internal.commands.SemanticTokensCommandTest
+testSemanticTokens_Modules(org.eclipse.jdt.ls.core.internal.commands.SemanticTokensCommandTest)  Time elapsed: 0.496 s
+testSemanticTokens_ClassLiterals(org.eclipse.jdt.ls.core.internal.commands.SemanticTokensCommandTest)  Time elapsed: 0.367 s
+testSemanticTokens_Constructors(org.eclipse.jdt.ls.core.internal.commands.SemanticTokensCommandTest)  Time elapsed: 0.436 s
+testSemanticTokens_Variables(org.eclipse.jdt.ls.core.internal.commands.SemanticTokensCommandTest)  Time elapsed: 0.447 s
+testSemanticTokens_Javadoc(org.eclipse.jdt.ls.core.internal.commands.SemanticTokensCommandTest)  Time elapsed: 0.449 s
+testSemanticTokens_SourceAttachment(org.eclipse.jdt.ls.core.internal.commands.SemanticTokensCommandTest)  Time elapsed: 0.424 s
+testSemanticTokens_Properties(org.eclipse.jdt.ls.core.internal.commands.SemanticTokensCommandTest)  Time elapsed: 0.424 s
+testSemanticTokens_Types(org.eclipse.jdt.ls.core.internal.commands.SemanticTokensCommandTest)  Time elapsed: 0.416 s
+testSemanticTokens_Packages(org.eclipse.jdt.ls.core.internal.commands.SemanticTokensCommandTest)  Time elapsed: 0.443 s
+testSemanticTokens_Annotations(org.eclipse.jdt.ls.core.internal.commands.SemanticTokensCommandTest)  Time elapsed: 0.394 s
+testSemanticTokens_Methods(org.eclipse.jdt.ls.core.internal.commands.SemanticTokensCommandTest)  Time elapsed: 0.442 s
