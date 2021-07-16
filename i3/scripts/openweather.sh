@@ -10,7 +10,7 @@ LON="-82.5612"
 UNITS="imperial"
 #CITY_ID="4164047"
 #URL="http://api.openweathermap.org/data/2.5/weather?id=${CITY_ID}&units=${UNITS}&APPID=${APIKEY}"
-URL="http://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&units=${UNITS}&APPID=${APIKEY}"
+URL="http://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&units=${UNITS}&APPID=${I3_OPENWEATHER_API_KEY}"
 
 WEATHER_RESPONSE=$(wget -qO- "${URL}")
 
