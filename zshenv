@@ -1,8 +1,8 @@
 ## locally install package path for user
 export PATH="$HOME/.local/bin:$PATH"
 
-## auth
-source $HOME/.gh_spacevim_auth.sh
+## auth/api_key
+source $HOME/.auth_api_keys
 
 ## go
 export GOPATH="$HOME/go"

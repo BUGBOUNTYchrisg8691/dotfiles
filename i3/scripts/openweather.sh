@@ -4,7 +4,6 @@ Aborting."; exit 1; }
 command -v wget >/dev/null 2>&1 || { echo >&2 "Program 'wget' required but is not installed.  
 Aborting."; exit 1; }
 
-APIKEY="7dad1c6f62afa0d0f4745f339793d11d"
 #ZIPCODE="34219"
 LAT="27.5359"
 LON="-82.5612"
