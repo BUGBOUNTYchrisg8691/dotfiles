@@ -11,7 +11,7 @@
   # set spacevim theme. by default colorscheme layer is not loaded,
   # if you want to use more colorscheme, please load the colorscheme
   # layer
-  colorscheme = "gruvbox"
+  colorscheme = "gruvbox8"
   colorscheme_bg = "dark"
   # Disable guicolors in basic mode, many terminal do not support 24bit
   # true colors
@@ -29,24 +29,50 @@
   automatic_update = true
   lint_engine = "ale"
 
+  ## Bootstrapping functions file location
+  bootstrap_before = "myspacevim#before"
+  bootstrap_after = "myspacevim#after"
+
+## Custom Enabled Layers
 # Enable autocomplete layer
 [[layers]]
   name = 'autocomplete'
   auto_completion_return_key_behavior = "complete"
   auto_completion_tab_key_behavior = "smart"
 
+## git integration
+[[layers]]
+  name = "git"
+  git_plugin = "fugitive"
+
+[[layers]]
+  name = "github"
+
+## Incremental Search
 [[layers]]
   name = "incsearch"
 
+## Theming
+[[custom_plugins]]
+  repo = "lifepillar/vim-gruvbox8"
+  merged = false
+
+## Misc
 [[layers]]
   name = 'shell'
   default_position = 'top'
   default_height = 30
 
-## fuzzy finder
 [[layers]]
   # name = "fzf"
   name = "leaderf"
+
+[[layers]]
+  name = "edit"
+
+[[layers]]
+  name = "format"
+  format_on_save = true
 
 ## Languauge specific layers
 [[layers]]
@@ -94,6 +120,10 @@
   name = "lang#toml"
 
 [[layers]]
+  name = "lang#vim"
+  auto_generate_doc = true
+
+[[layers]]
   name = "lang#xml"
 
 ## lsp protocol
@@ -110,6 +140,8 @@
     "sh",
     "typescript"
   ]
+
+  ## lsp override cmds
   [layers.override_cmd]
     rust = ["rls"]
     java = [
@@ -128,7 +160,6 @@
       "-data",
       "~/.cache/java-jdt-ls"
     ]
-
 
 ## Buggy built-in plugins work-around
 [[custom_plugins]]
